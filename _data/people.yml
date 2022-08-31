@@ -6,6 +6,24 @@ aditya:
     image: /img/people/aditya.jpeg
     bio: Technical Consultant
     
+karthikr:
+    display_name: "Karthik Rajgopal"
+    webpage: "https://www.linkedin.com/in/karthik-rajgopal-1035021ba/"
+    role: intern
+    bio: BITS, Pilani
+    
+anshumaan:
+    display_name: "Anshumaan Singh"
+    webpage: "https://www.linkedin.com/in/anshumaan-singh-ab1ba91b3/"
+    role: intern
+    bio: Manipal Institute of Technology
+    
+harshita:
+    display_name: "Harshita A."
+    webpage: "https://www.linkedin.com/in/harshita-a-39254b115/"
+    role: intern
+    bio: IIT Bombay
+    
 raghav:
     display_name: "Raghav Soni"
     webpage: "https://www.linkedin.com/in/raghav-soni-0932b71b7/"
@@ -53,7 +71,7 @@ somnath:
 utkarsh:
     display_name: "Utkarsh Mishra"
     #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: intern
+    role: alum
     #image: /img/people/pramod.jpg
     bio: IIT Roorkee
 
@@ -67,7 +85,7 @@ himanshulodha:
 phani:
     display_name: "Phani Madhusudhan Thontepu"
     #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: masters
+    role: alum
     #image: /img/people/pramod.jpg
     bio: AI, IISc
 
@@ -78,17 +96,17 @@ sangeet:
     #image: /img/people/pramod.jpg
     bio: AI, IISc
 
-krishnrao:
-    display_name: "Sarang Kadam Krishnrao"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: masters
-    #image: /img/people/pramod.jpg
-    bio: RAS, IISc
+# krishnrao:
+#     display_name: "Sarang Kadam Krishnrao"
+#     #webpage: "https://www.linkedin.com/in/lauraleeane/"
+#     role: masters
+#     #image: /img/people/pramod.jpg
+#     bio: RAS, IISc
 
 ankitpandita:
     display_name: "Ankit Pandita"
     #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: masters
+    role: alum
     #image: /img/people/pramod.jpg
     bio: AI, IISc
 
@@ -123,9 +141,9 @@ abhishekranjan:
 ashirwat:
     display_name: "Aditya Shirwatkar"
     #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: intern
+    role: phd
     #image: /img/people/pramod.jpg
-    bio: VNIT
+    bio: RBCCPS, IISc
 
 shishir:
     display_name: "Shishir Kolathaya (HEAD)"
@@ -178,9 +196,9 @@ soumya:
 amansingh:
     display_name: "Aman Singh"
     #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: staff
+    role: phd
     #image: /img/people/pramod.jpg
-    bio: IIT, Roorkee
+    bio: RBCCPS, IISc
 
 bhavya:
     display_name: "Bhavya Giri Goswami"
@@ -213,7 +231,7 @@ avinash:
 lokesh:
     display_name: "Lokesh Krishna"
     webpage: "https://lok-i.github.io/website/"
-    role: intern
+    role: alum
     image: /img/people/lokesh.jpeg
     bio: B.Tech., IIT BHU
 
