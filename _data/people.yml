@@ -131,7 +131,7 @@ sangeet:
     display_name: "Sangeet M"
     webpage: "https://www.linkedin.com/in/sangeetmpkd7/"
     role: alum
-    bio: MTech AI, 2023
+    bio: MTech AI, 2023, Now at Siemens Technology
     
 subho:
     display_name: "Subhojyoti Khastagir"
@@ -140,33 +140,34 @@ subho:
     bio: MTech CSA, 2023    
 
 phani:
-    display_name: "Phani Madhusudhan Thontepu"
+    display_name: "Phani M Thontepu"
     webpage: "https://in.linkedin.com/in/phani-madhusudhan-thontepu-4741ab115"
     role: alum
     bio: MTech AI, 2022
 
 ankitpandita:
     display_name: "Ankit Pandita"
+    webpage: "https://www.linkedin.com/in/ankit-pandita-479830205/"
     role: alum
-    bio: MTech AI, 2022
+    bio: MTech AI, 2022, Now at LTIMindtree NxT
 
 govindu:
     display_name: "Palaparthi Govindu"
     webpage: "https://www.linkedin.com/in/govind100/"
     role: alum
-    bio: MTech CSA, 2022
+    bio: MTech CSA, 2022, Now at Dozee
     
 devarajuvinoda:
     display_name: "Devaraju Vinoda"
     webpage: "https://www.linkedin.com/in/devaraju-vinoda/"
     role: alum
-    bio: MTech CSA,2022
+    bio: MTech CSA,2022, Now at Oracle
 
 soumya:
     display_name: "Soumya Rani"
-    webpage: "https://www.linkedin.com/in/lauraleeane/"
+    webpage: "https://www.linkedin.com/in/soumya-rani/"
     role: alum
-    bio: MTech CSA, 2021
+    bio: MTech CSA, 2021, Now at Quantiphi
 
 # Intern-Alumni
 
