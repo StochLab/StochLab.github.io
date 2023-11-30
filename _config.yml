@@ -30,8 +30,8 @@ roles:
     name: Visiting Students
   - key: intern
     name: Interns
-#  - key: ugrad-alum
-#    name: Past Undergraduate Students
+ - key: intern-alum
+   name: Past Interns
   # - key: collab
   #   name: Collaborators
   - key: alum
