@@ -7,6 +7,7 @@ people:
   - utkarsh
   - soumya
   - shishir
+  - prakhar
 
 layout: project
 image: "/img/DeMoRL/all_combined.gif"
