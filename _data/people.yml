@@ -1,3 +1,4 @@
+#Current Staff members
 vemuru:
     display_name: "Srihari Vemuru"
     role: staff
@@ -13,18 +14,49 @@ vjoshi:
 mjavale:
     display_name: "Mohit Javale"
     role: staff
-    bio: BITS
     
 kgarg:
     display_name: "Karthik Garg"
     role: staff
-    bio: IIT BHU
     
-mkoothoor:
-    display_name: "Marck Koothoor"
-    role: intern-alum
-    bio: VJTI
+ketan:
+    display_name: "Ketan Nehete"
+    role: staff
+
+karthikraj:
+    display_name: "Karthik Rajgopal"
+    role: staff
+
+vedvyas:
+    display_name: "Vedvyas Danturi"
+    role: staff
+
+namansaxena:
+    display_name: "Naman Saxena"
+    webpage: "https://in.linkedin.com/in/naman-saxena-718b7b175"
+    role: staff
+
+abhishekranjan:
+    display_name: "Abhishek Ranjan"
+    role: staff
+
+nithin:
+    display_name: "Nithin Vasishta"
+    github: nithin127
+    role: staff
+    image: /img/people/nithin.png
     
+ravikola:
+    display_name: "Ravi Kola"
+    role: staff
+
+# MTech Students
+mothish:
+    display_name: "GVS Mothish"
+    webpage: "https://www.linkedin.com/in/gvs-mothish-536138209/"
+    role: masters
+    bio: RAS, IISc
+
 tirthsyala:
     display_name: "Tirth Siyala"
     role: masters
@@ -39,76 +71,23 @@ pkotecha:
     display_name: "Prakrut Kotecha"
     role: masters
     bio: M Tech (Res)
-    
-aditya:
-    display_name: "Aditya Sagi"
-    webpage: "https://www.linkedin.com/in/aditya-varma-sagi/"
-    github: adityasagi
-    role:  alum
-    image: /img/people/aditya.jpeg
-    bio: Technical Consultant
-    
-raghav:
-    display_name: "Raghav Soni"
-    webpage: "https://www.linkedin.com/in/raghav-soni-0932b71b7/"
-    role: intern-alum
-    image: /img/people/raghav.jpg
-    bio: IIT BHU
 
-toshan:
-    display_name: "Toshan Luktuke"
-    role: intern-alum
-    image: /img/people/raghav.jpg
-    bio: VJTI
+# PhD Students
 
-ketan:
-    display_name: "Ketan Nehete"
-    #webpage: "https://www.linkedin.com/in/raghav-soni-0932b71b7/"
-    role: staff
-    #image: /img/people/raghav.jpg
-    bio: Project Assistant
+pramod:
+    display_name: "Pramod Pal"
+    github: ppalcx
+    role: phd
+    image: /img/people/pramod.jpg
+    bio: ME, IISc
 
-sreehari:
-    display_name: "Sreehari Acharaya"
-    #webpage: "https://www.linkedin.com/in/raghav-soni-0932b71b7/"
-    role: alum
-    #image: /img/people/raghav.jpg
-    bio: Project Assistant
-
-karthikraj:
-    display_name: "Karthik Rajgopal"
-    role: staff
-    bio: Project Assistant
-
-vedvyas:
-    display_name: "Vedvyas Danturi"
-    role: staff
-    bio: Project Assistant
-
-prakharg:
-    display_name: "Prakhar Goel"
-    webpage: "https://www.linkedin.com/in/prakhar-goel-4616501a5/"
-    role: intern-alum
-    #image: /img/people/raghav.jpg
-    bio: Manipal Institute of Technology
-
-shashankram:
-    display_name: "Shashank Ramesh"
-    webpage: "https://www.linkedin.com/in/shashank-ramesh-515707145/"
-    role: intern-alum
-    bio: Grad Student, University of Notre Dame
-
-cvk:
-    display_name: "Chandravaran Kunjeti"
-    webpage: "https://www.linkedin.com/in/chandravaran-kunjeti/"
-    role: intern-alum
-    bio: Grad Student, University of Pennsylvania
-
-prathameshsaraf:
-    display_name: "Prathamesh Saraf"
-    webpage: "https://www.linkedin.com/in/prathamesh-saraf/"
-    role: intern-alum
-    bio: Grad Student, UC San Diego 
+vamshi:
+    display_name: "Vamshi Kumar Kurva"
+    webpage: "https://vamshikumarkurva.github.io/"
+    role: phd
+    github: vamshikumarkurva
+    image: /img/people/vamshikumar.png
+    bio: CSA, IISc
 
 manan:
     display_name: "Manan Tayal"
@@ -117,113 +96,12 @@ manan:
     github: tayalmanan28
     image: /img/people/manan.jpg
     bio: RBCCPS, IISc
-    
-vamshi:
-    display_name: "Vamshi Kumar Kurva"
-    webpage: "https://vamshikumarkurva.github.io/"
+
+amansingh:
+    display_name: "Aman Singh"
     role: phd
-    github: vamshikumarkurva
-    image: /img/people/vamshikumar.png
-    bio: CSA, IISc
-    
-yogita:
-    display_name: "Yogita Choudhary"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: intern-alum
-    #image: /img/people/pramod.jpg
-    bio: IIT BHU
-
-somnath:
-    display_name: "Somnath Sendhil Kumar"
-    webpage: "https://www.linkedin.com/in/somnathsenku/"
-    role: intern-alum
-    #image: /img/people/pramod.jpg
-    bio: IIT BHU
-
-vishweshn:
-    display_name: "Vishwesh N"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: intern-alum
-    #image: /img/people/pramod.jpg
-    bio: IIT Kharagpur
-
-utkarsh:
-    display_name: "Utkarsh A Mishra"
-    webpage: "https://utkarshmishra04.github.io/research/"
-    role: intern-alum
-    image: /img/people/utkarsh.jpg
-    bio: Grad Student, Georgia Tech
-
-himanshulodha:
-    display_name: "Himanshu Lodha"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: intern-alum
-    #image: /img/people/pramod.jpg
-    bio: Project Assistant
-
-phani:
-    display_name: "Phani Madhusudhan Thontepu"
-    webpage: "https://in.linkedin.com/in/phani-madhusudhan-thontepu-4741ab115"
-    role: alum
-    #image: /img/people/pramod.jpg
-    bio: MTech AI, 2022
-
-sangeet:
-    display_name: "Sangeet M"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: alum
-    #image: /img/people/pramod.jpg
-    bio: MTech AI, 2023
-
-mothish:
-    display_name: "GVS Mothish"
-    webpage: "https://www.linkedin.com/in/gvs-mothish-536138209/"
-    role: masters
-    #image: /img/people/pramod.jpg
-    bio: RAS, IISc
-
-ankitpandita:
-    display_name: "Ankit Pandita"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: alum
-    #image: /img/people/pramod.jpg
-    bio: MTech AI, 2021
-
-govindu:
-    display_name: "Palaparthi Govindu"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: alum
-    #image: /img/people/pramod.jpg
-    bio: CSA, IISc
-
-devarajuvinoda:
-    display_name: "Devaraju Vinoda"
-    webpage: "https://www.linkedin.com/in/devaraju-vinoda/"
-    role: alum
-    #image: /img/people/pramod.jpg
-    bio: CSA, IISc
-
-namansaxena:
-    display_name: "Naman Saxena"
-    webpage: "https://in.linkedin.com/in/naman-saxena-718b7b175"
-    role: staff
-    #image: /img/people/pramod.jpg
-    bio: CSA, IISc
-
-subho:
-    display_name: "Subhojyoti Khastagir"
-    webpage: "https://www.linkedin.com/in/subhojyoti-khastagir-2a4716152/"
-    role: alum
-    #image: /img/people/pramod.jpg
-    bio: CSA, IISc
-
-
-abhishekranjan:
-    display_name: "Abhishek Ranjan"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: staff
-    #image: /img/people/pramod.jpg
-    bio: CSA, IISc
+    image: /img/people/aman-singh.png
+    bio: RBCCPS, IISc
 
 ashirwat:
     display_name: "Aditya Shirwatkar"
@@ -231,6 +109,178 @@ ashirwat:
     role: phd
     image: /img/people/aditya-shirwatkar.png
     bio: RBCCPS, IISc
+
+
+# Alumni
+
+aditya:
+    display_name: "Aditya Sagi"
+    webpage: "https://www.linkedin.com/in/aditya-varma-sagi/"
+    github: adityasagi
+    role:  alum
+    image: /img/people/aditya.jpeg
+    bio: Technical Consultant
+
+sreehari:
+    display_name: "Sreehari Acharaya"
+    role: alum
+    bio: Project Assistant
+
+
+sangeet:
+    display_name: "Sangeet M"
+    webpage: "https://www.linkedin.com/in/sangeetmpkd7/"
+    role: alum
+    bio: MTech AI, 2023
+    
+subho:
+    display_name: "Subhojyoti Khastagir"
+    webpage: "https://www.linkedin.com/in/subhojyoti-khastagir-2a4716152/"
+    role: alum
+    bio: MTech CSA, 2023    
+
+phani:
+    display_name: "Phani Madhusudhan Thontepu"
+    webpage: "https://in.linkedin.com/in/phani-madhusudhan-thontepu-4741ab115"
+    role: alum
+    bio: MTech AI, 2022
+
+ankitpandita:
+    display_name: "Ankit Pandita"
+    role: alum
+    bio: MTech AI, 2022
+
+govindu:
+    display_name: "Palaparthi Govindu"
+    webpage: "https://www.linkedin.com/in/govind100/"
+    role: alum
+    bio: MTech CSA, 2022
+    
+devarajuvinoda:
+    display_name: "Devaraju Vinoda"
+    webpage: "https://www.linkedin.com/in/devaraju-vinoda/"
+    role: alum
+    bio: MTech CSA,2022
+
+soumya:
+    display_name: "Soumya Rani"
+    webpage: "https://www.linkedin.com/in/lauraleeane/"
+    role: alum
+    bio: MTech CSA, 2021
+
+# Intern-Alumni
+
+raghav:
+    display_name: "Raghav Soni"
+    webpage: "https://www.linkedin.com/in/raghav-soni-0932b71b7/"
+    role: intern-alum
+    image: /img/people/raghav.jpg
+    
+mkoothoor:
+    display_name: "Marck Koothoor"
+    role: intern-alum
+
+toshan:
+    display_name: "Toshan Luktuke"
+    role: intern-alum
+
+prakharg:
+    display_name: "Prakhar Goel"
+    webpage: "https://www.linkedin.com/in/prakhar-goel-4616501a5/"
+    role: intern-alum
+
+shashankram:
+    display_name: "Shashank Ramesh"
+    webpage: "https://www.linkedin.com/in/shashank-ramesh-515707145/"
+    role: intern-alum
+
+cvk:
+    display_name: "Chandravaran Kunjeti"
+    webpage: "https://www.linkedin.com/in/chandravaran-kunjeti/"
+    role: intern-alum
+
+prathameshsaraf:
+    display_name: "Prathamesh Saraf"
+    webpage: "https://www.linkedin.com/in/prathamesh-saraf/"
+    role: intern-alum
+    
+yogita:
+    display_name: "Yogita Choudhary"
+    role: intern-alum
+
+somnath:
+    display_name: "Somnath Sendhil Kumar"
+    webpage: "https://www.linkedin.com/in/somnathsenku/"
+    role: intern-alum
+
+vishweshn:
+    display_name: "Vishwesh N"
+    role: intern-alum
+
+utkarsh:
+    display_name: "Utkarsh A Mishra"
+    webpage: "https://utkarshmishra04.github.io/research/"
+    role: intern-alum
+    image: /img/people/utkarsh.jpg
+
+himanshulodha:
+    display_name: "Himanshu Lodha"
+    role: intern-alum
+
+bhavya:
+    display_name: "Bhavya Giri Goswami"
+    webpage: "https://www.linkedin.com/in/bhavya-giri-goswami/"
+    role: intern-alum
+
+sashank:
+    display_name: "Sashank Tirumala"
+    role: intern-alum
+
+tejas:
+    display_name: "Tejas Rane"
+    role: intern-alum
+    image: /img/people/tejas.jpg
+
+avinash:
+    display_name: "Avinash Bhashkar "
+    role: intern-alum
+    image: /img/people/avinash.jpg
+
+lokesh:
+    display_name: "Lokesh Krishna"
+    webpage: "https://lok-i.github.io/website/"
+    role: intern-alum
+    image: /img/people/lokesh.jpeg
+
+shivamsood:
+    display_name: "Shivam Sood"
+    role: intern-alum
+
+dhaivat:
+    display_name: "Dhaivat Dholakiya"
+    webpage: "https://sites.google.com/view/dhaivatdh/home"
+    role: intern-alum
+
+abhik:
+    display_name: "Abhik Singla"
+    webpage: "https://sites.google.com/view/abhiksingla/home"
+    role: intern-alum
+
+shounak:
+    display_name: "Shounak Bhattacharya"
+    webpage: "https://www.linkedin.com/in/shounakbh/"
+    role: intern-alum
+
+abhimanyu:
+    display_name: "Abhimanyu"
+    role: intern-alum
+
+ajay:
+    display_name: "Ajay Gunalan"
+    webpage: "https://ajaygunalan.github.io/"
+    role: intern-alum
+
+# Profs
 
 shishir:
     display_name: "Shishir Kolathaya (HEAD)"
@@ -261,121 +311,3 @@ ashitava:
     role: faculty
     image: /img/people/ashitava.jpg
     bio:  Professor
-
-nithin:
-    display_name: "Nithin Vasishta"
-    github: nithin127
-    role: staff
-    bio: Project Assistant
-    image: /img/people/nithin.png
-    
-ravikola:
-    display_name: "Ravi Kola"
-    role: staff
-    bio: Project Assistant
-
-
-pramod:
-    display_name: "Pramod Pal"
-    #webpage: "https://github.com/ppalcx"
-    github: ppalcx
-    role: phd
-    image: /img/people/pramod.jpg
-    bio: ME, IISc
-
-soumya:
-    display_name: "Soumya Rani"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: alum
-    #image: /img/people/laura.jpg
-    bio: CSA, IISc
-
-amansingh:
-    display_name: "Aman Singh"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: phd
-    image: /img/people/aman-singh.png
-    bio: RBCCPS, IISc
-
-bhavya:
-    display_name: "Bhavya Giri Goswami"
-    webpage: "https://www.linkedin.com/in/bhavya-giri-goswami/"
-    role: intern-alum
-    #image: /img/people/pramod.jpg
-    bio: Grad Student, University of Waterloo
-
-sashank:
-    display_name: "Sashank Tirumala"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: intern-alum
-    #image: /img/people/pramod.jpg
-    bio: Grad Student, CMU
-
-tejas:
-    display_name: "Tejas Rane"
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: intern-alum
-    image: /img/people/tejas.jpg
-    bio: B.E. BITS, Pilani, Goa
-
-avinash:
-    display_name: "Avinash Bhashkar "
-    #webpage: "https://www.linkedin.com/in/lauraleeane/"
-    role: intern-alum
-    image: /img/people/avinash.jpg
-    bio: M.Tech., Centre for advanced studies, Lucknow
-
-lokesh:
-    display_name: "Lokesh Krishna"
-    webpage: "https://lok-i.github.io/website/"
-    role: intern-alum
-    image: /img/people/lokesh.jpeg
-    bio: Grad Student, USC Viterbi
-
-shivamsood:
-    display_name: "Shivam Sood"
-    # webpage: "https://lok-i.github.io/website/"
-    role: intern-alum
-    # image: /img/people/lokesh.jpeg
-    bio: IIT Kharagpur
-
-
-dhaivat:
-    display_name: "Dhaivat Dholakiya"
-    webpage: "https://sites.google.com/view/dhaivatdh/home"
-    #github: jared711
-    role: intern-alum
-    #image: /img/people/jared.jpg
-    bio: Grad Student, ASU
-
-abhik:
-    display_name: "Abhik Singla"
-    webpage: "https://sites.google.com/view/abhiksingla/home"
-    #github: Derollez
-    role: intern-alum
-    #image: /img/people/remy.jpg
-    bio: Grad Student, UMass
-
-shounak:
-    display_name: "Shounak Bhattacharya"
-    webpage: "https://www.linkedin.com/in/shounakbh/"
-    #github: Derollez
-    role: intern-alum
-    #image: /img/people/remy.jpg
-    bio: Research Engineer, NUS
-
-abhimanyu:
-    display_name: "Abhimanyu"
-    #webpage: "https://www.linkedin.com/in/shounakbh/"
-    #github: Derollez
-    role: intern-alum
-    #image: /img/people/remy.jpg
-    bio: Grad Student, CMU
-
-ajay:
-    display_name: "Ajay Gunalan"
-    webpage: "https://ajaygunalan.github.io/"
-    #github: Derollez
-    role: intern-alum
-    #image: /img/people/remy.jpg
-    bio: Research Fellow, IIT, Italy
