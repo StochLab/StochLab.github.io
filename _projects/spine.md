@@ -17,6 +17,7 @@ people:
 layout: project
 image: "/img/spine.jpg"
 last-updated: 2020-10-08
+status: inactive
 ---
 ### Learning Active Spine Behaviors 
 In this work, we provide a simulation framework

@@ -12,6 +12,7 @@ people:
 layout: project
 image: "/img/AverageRL/flow_diagram.png"
 last-updated: 2023-08-05
+status: inactive
 ---
 
 <br>
