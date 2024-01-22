@@ -124,15 +124,6 @@ aditya:
     image: /img/people/aditya.jpeg
     bio: Now at Chirathe Robotics
 
-prakhar:
-    display_name: "Prakhar Goel"
-    webpage: "https://www.linkedin.com/in/prakhar-goel-4616501a5/"
-    github: prakharg01
-    role: alum
-    image: /img/people/prakhar.jpeg
-    bio: Now at Chirathe Robotics
-
-
 sangeet:
     display_name: "Sangeet M"
     webpage: "https://www.linkedin.com/in/sangeetmpkd7/"
@@ -176,6 +167,15 @@ soumya:
     bio: MTech CSA, 2021, Now at Quantiphi
 
 # Intern-Alumni
+
+prakharg:
+    display_name: "Prakhar Goel"
+    webpage: "https://www.linkedin.com/in/prakhar-goel-4616501a5/"
+    github: prakharg01
+    role: intern-alum
+    image: /img/people/prakhar.jpeg
+    bio: Now at Chirathe Robotics
+
 sreehari:
     display_name: "Sreehari Acharaya"
     role: intern-alum

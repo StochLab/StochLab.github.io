@@ -4,7 +4,7 @@ title: Dynamic Manipulator
 description: |
   A highly dynamic, torque controllable manipulator for quadruped robots.
 people:
-  - prakhar
+  - prakharg
   - amritanshu
   - vedvyas
   - shishir
