@@ -8,7 +8,7 @@ people:
   - shishir
   - shounak
   - abhik
-  - ashish
+  - ashishj
   - abhimanyu
   - dhaivat
   - aditya

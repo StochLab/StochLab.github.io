@@ -11,6 +11,12 @@ sarveshprasanth:
     image: /img/people/Sarvesh_Prasanth_V.jpg
     role: staff
 
+ksrinivas:
+    display_name: "K Srinivas "
+    webpage: "https://www.linkedin.com/in/sri-k08/"
+    role: staff
+    image: /img/people/K_Srinivas.jpeg
+
 satyamgupta:
     display_name: "Satyam Gupta"
     webpage: "https://www.linkedin.com/in/satyamgupta27/"
@@ -47,11 +53,6 @@ nithin:
     webpage: "https://www.linkedin.com/in/nithin-vasishta/"
     image: /img/people/nithin.png
     role: staff
-
-prayuj:
-    display_name: "Prayuj Sachdev"
-    webpage: "https://www.linkedin.com/in/prayuj-sachdev-4522541ba/"
-    role: staff
     
 ddarji:
     display_name: "Darshit Darji"
@@ -76,21 +77,12 @@ raviagrawal:
 adityakurande:
     display_name: "Aditya Kurande"
     webpage: "https://www.linkedin.com/in/aditya-kurande-15a644254/"
-    role: intern
+    role: fellow
 
-ksrinivas:
-    display_name: "K Srinivas "
-    webpage: "https://www.linkedin.com/in/sri-k08/"
-    role: intern
 
 devchandbothra:
     display_name: "Devchand Bothra"
     webpage: "https://www.linkedin.com/in/devchandbothra/"
-    role: intern
-
-kishorepchandra:
-    display_name: "Kishore P Chandra"
-    webpage: "https://www.linkedin.com/in/k1sh0re"
     role: intern
 
 # MTech Students
@@ -130,8 +122,24 @@ ishita:
     role: masters
     bio: M.Tech. RAS (Sponsered student from ISRO)
 
+adit:
+    display_name: 'Adith Muralidharan'
+    role: masters
+    webpage: "https://www.linkedin.com/in/adith-m-dharan/"
+    image: /img/people/adith_m.jpeg
+    bio: M.Tech. RAS
 
+ganganair:
+    display_name: 'Ganga Nair'
+    webpage: "https://www.linkedin.com/in/ganga-nair-8b9014186"
+    role: masters
+    bio: M.Tech. RAS
 
+pranavtiwari:
+    display_name: 'Pranav Tiwari'
+    webpage: "https://pranavtiwari.co.in/"
+    role: masters
+    bio: M.Tech. RAS
 
 
 # PhD Students
@@ -171,7 +179,7 @@ ashirwat:
     webpage: "https://aditya-shirwatkar.github.io/"
     role: phd
     image: /img/people/aditya-shirwatkar.png
-    bio: Model Based RL 
+    bio: Contact Rich Legged Locomotion
 
 amishra:
     display_name: "Aastha Mishra"
@@ -192,6 +200,14 @@ sudesh:
     role: phd
     image: /img/people/Sudesh_Morey.jpg
     bio: 
+
+# UG
+shreenaba:
+    display_name: "Shreenabh Agrawal"
+    image: /img/people/shreenabh_agrawal.jpeg
+    role: ug
+    webpage: "https://in.linkedin.com/in/shreenabh"
+    bio: Undergraduate Student, Physics
 
 # Alumni
 krankit:
@@ -273,9 +289,15 @@ aditya:
     role:  intern-alum
     image: /img/people/aditya.jpeg
 
+kishorepchandra:
+    display_name: "Kishore P Chandra"
+    webpage: "https://www.linkedin.com/in/k1sh0re"
+    role: intern-alum
+
 vemuru:
     display_name: "Srihari Vemuru"
     role: intern-alum
+    webpage: 'https://www.linkedin.com/in/srihari-vemuru'
 
 tejasrao:
     display_name: "Tejas Rao"
@@ -293,6 +315,11 @@ amitsawant:
     display_name: "Amit Sawant"
     webpage: "https://www.linkedin.com/in/amit-sawant-201677160/"
     image: /img/people/Amit_Sawant.jpg
+    role: intern-alum
+
+prayujs:
+    display_name: "Prayuj Sachdev"
+    webpage: "https://www.linkedin.com/in/prayuj-sachdev-4522541ba/"
     role: intern-alum
 
 mjavale:
@@ -322,14 +349,17 @@ karthikraj:
 ravikola:
     display_name: "Ravi Kola"
     role: intern-alum
+    webpage: "https://in.linkedin.com/in/ravi-kola-561144157"
 
 vedvyas:
     display_name: "Vedvyas Danturi"
     role: intern-alum
+    webpage: "https://www.linkedin.com/in/vedvyas-danturi"
 
 sreehari:
     display_name: "Sreehari Acharaya"
     role: intern-alum
+    webpage: "https://in.linkedin.com/in/sreehari-acharya2"
     
 raghav:
     display_name: "Raghav Soni"
@@ -340,10 +370,12 @@ raghav:
 mkoothoor:
     display_name: "Marck Koothoor"
     role: intern-alum
+    webpage: "https://in.linkedin.com/in/marck-koothoor"
 
 toshan:
     display_name: "Toshan Luktuke"
     role: intern-alum
+    webpage: "https://in.linkedin.com/in/toshan-luktuke-63ba7b1b8"
 
 
 shashankram:
@@ -374,6 +406,7 @@ somnath:
 vishweshn:
     display_name: "Vishwesh N"
     role: intern-alum
+    webpage: "https://viswesh-n.github.io/"
 
 utkarsh:
     display_name: "Utkarsh A Mishra"
@@ -400,6 +433,7 @@ tejas:
     display_name: "Tejas Rane"
     role: intern-alum
     image: /img/people/tejas.jpg
+    webpage: "https://www.linkedin.com/in/tejasrane1113"
 
 avinash:
     display_name: "Avinash Bhashkar"
@@ -436,6 +470,7 @@ shounak:
 abhimanyu:
     display_name: "Abhimanyu"
     role: intern-alum
+    role: "https://fnuabhimanyu.github.io/"
 
 kartik:
     display_name: "Kartik Paigwar"
@@ -485,6 +520,20 @@ andrewclark:
     image: /img/people/clark.jpg
     bio: Associate Professor, ESE, WUSTL
 
+# majidkhadiv:
+#     display_name: "Majid Khadiv"
+#     webpage: "https://www.ce.cit.tum.de/en/aipd/members/majid-khadiv/"
+#     role: collaborator
+#     image: /img/people/majid_khadiv.jpeg
+#     bio: Assistant Professor, CIT, TUM
+
+somilbansal:
+    display_name: "Somil Bansal"
+    webpage: ""
+    role: collaborator
+    image: /img/people/somil bansal.jpg
+    bio: Assistant Professor, AA, Stanford
+
 debasish:
     display_name: "Debasish Ghose"
     webpage: "https://aero.iisc.ac.in/people/debasish-ghose/"
@@ -512,6 +561,13 @@ ames:
     role: collaborator
     image: /img/people/ames.jpg
     bio: Bren Professor, ME & CDS, Caltech
+
+ashishj:
+    display_name: "Ashish Joglekar"
+    webpage: "https://ieeexplore.ieee.org/author/37086180315"
+    role: collaborator
+    image: /img/people/ashishj.jpg
+    bio: Visting Faculty, CPS, IISc. Co-founder, Twara Robotics
 
 ashitava:
     display_name: "Ashitava Ghosal"

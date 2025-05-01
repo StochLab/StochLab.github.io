@@ -36,9 +36,12 @@ Setup
 3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
 4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
 5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
-6. Type `make` to build the site and then run `make serve` to view your site.
-7. Keep adding content. See below for instructions for each of the various sections.
-8. Periodically pull from the upstream repository: `git pull upstream master`.
+6. `bundle exec jekyll clean` (Install bundle if you don't have it: `gem install bundler`)
+7. `bundle install`
+8. `bundle exec jekyll build`
+9. Type `make` to build the site and then run `make serve` to view your site.
+10. Keep adding content. See below for instructions for each of the various sections.
+11. Periodically pull from the upstream repository: `git pull upstream master`.
 
 [Python]: https://www.python.org/
 [Fork]: https://github.com/uwsampa/research-group-web/fork

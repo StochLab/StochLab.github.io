@@ -303,6 +303,13 @@
   pdf: patent_sandwich_leg.pdf
   projects: [Quadruped]
 
+- title: "A method and system for controlling quadrupedal robot locomotion"
+  authors: [Aditya Shirwatkar, Aditya Sagi, Shishir Kolathaya]
+  date: 2025-03-15
+  pub-type: patent
+  publisher: "Indian Patent"
+  projects: [Quadruped]
+
 - title: "Revisit Anything: Visual Place Recognition via Image Segment Retrieval"
   authors: [Kartik Garg, Sai Shubodh Puligilla, Shishir Kolathaya, Madhava Krishna, Sourav Garg]
   date: 2024-10-02
@@ -357,12 +364,52 @@
   pub-type: conference
   publisher: "IEEE International Conference on Robotics and Automation (ICRA) 2025, Atlanta, USA"
   pdf: https://arxiv.org/pdf/2409.09441
-  projects: [Quadruped]
+  projects: [PIP-Loco]
 
 - title: "A Physics-Informed Machine Learning Framework for Safe and Optimal Control of Autonomous Systems"
   authors: [Manan Tayal*, Aditya Singh*, Shishir Kolathaya, Somil Bansal]
   date: 2025-02-20
+  pub-type: conference
+  publisher: "International Conference on Machine Learning (ICML) 2025, Vancouver, Canada"
+  pdf: Piml_co_opt.pdf
+  projects: [ConformalPrediction]
+
+- title: "Data-Driven Physics Embedded Dynamics with Predictive Control and Reinforcement Learning for Quadrupeds"
+  authors: [Prakrut Kotecha, Aditya Shirwatkar, Shishir Kolathaya]
+  date: 2025-02-20
   pub-type: preprint
   publisher: "Pre-print"
-  pdf: Piml_co_opt.pdf
-  projects: [HJB]
+  pdf: https://www.stochlab.com/PEPC/
+  projects: [PEPC]
+
+- title: "MULE: Multi-terrain and Unknown Load Adaptation for Effective Quadrupedal Locomotion"
+  authors: [Vamshi Kumar Kurva, Shishir Kolathaya]
+  date: 2025-02-20
+  pub-type: preprint
+  publisher: "Pre-print"
+  pdf: https://www.stochlab.com/MULE/
+  projects: [MULE]
+
+- title: "A Chain-Driven, Sandwich-Legged Quadruped Robot: Design and Experimental Analysis"
+  authors: [Aman Singh, Bhavya Giri Goswami, Ketan Nehete, Shishir N. Y. Kolathaya]
+  date: 2025-03-18
+  pub-type: conference
+  publisher: "7th International Conference of Advances In Robotics (AIR) 2025"
+  pdf: https://arxiv.org/pdf/2503.14255
+  projects: [Quadruped]
+
+- title: "CP-NCBF: A Conformal Prediction-based Approach to Synthesize Verified Neural Control Barrier Functions"
+  authors: [Manan Tayal*, Aditya Singh*, Pushpak Jagtap, Shishir Kolathaya]
+  date: 2025-03-20
+  pub-type: preprint
+  publisher: "Pre-print"
+  pdf: https://arxiv.org/pdf/2503.17395
+  projects: [NCBF]
+
+- title: "Neural Control Barrier Functions from Physics Informed Neural Networks"
+  authors: [Shreenabh Agrawal, Manan Tayal, Aditya Singh, Shishir Kolathaya]
+  date: 2025-4-15
+  pub-type: preprint
+  publisher: "Pre-print"
+  pdf: https://arxiv.org/pdf/2504.11045
+  projects: [NCBF]

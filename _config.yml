@@ -28,14 +28,16 @@ roles:
     name: PhD Students
   - key: masters
     name: Masters Students
+  - key: ug
+    name: UG Students
   - key: fellow
     name: Visiting Students
   - key: intern
     name: Interns
   - key: intern-alum
     name: Past Interns/Visiting Students/ Staff
-  # - key: collab
-  #   name: Collaborators
+  - key: collab
+    name: Collaborators
   - key: alum
     name: Alumni
 
@@ -65,4 +67,8 @@ navigation:
     link: https://www.youtube.com/channel/UC4SBmq_fVgzyaqHHyITkSjA
   - title: Join Us
     link: /join.html
+
 theme: jekyll-theme-cayman
+
+plugins:
+  - jekyll-redirect-from
