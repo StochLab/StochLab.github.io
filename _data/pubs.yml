@@ -444,7 +444,7 @@
   pub-type: conference
   publisher: "Indian Control Conference (ICC) 2025, Bangalore, India"
   pdf: https://arxiv.org/pdf/2507.13872
-  projects: [NCBF]
+  projects: [CBF]
 
 - title: "Real-Time Gait Adaptation for Quadrupeds using Model Predictive Control and Reinforcement Learning"
   authors: [Ganga Nair*, Prakrut Kotecha*, Shishir Kolathaya]
@@ -493,3 +493,11 @@
   publisher: "IEEE Robotics and Automation Letters (RAL)"
   pdf: https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=11242040
   projects: [MULE]
+
+- title: "COMPAct: Computational Optimization and Automated Modular design of Planetary Actuators"
+  authors: [Aman Singh*, Deepak Kapa*, Suryank Joshi, Shishir Kolathaya]
+  date: 2026-01-15
+  pub-type: preprint
+  publisher: "Pre-print"
+  pdf: https://arxiv.org/pdf/2510.07197
+  projects: [CodesignOptimization]
