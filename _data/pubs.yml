@@ -464,7 +464,7 @@
 
 - title: "A Collision Cone approach for Control Barrier Functions"
   authors: [Manan Tayal, Bhavya Giri Goswami, Karthik Rajgopal, Rajpal Singh, Tejas Rao, Jishnu Keshavan, Pushpak Jagtap, Shishir Kolathaya]
-  date: 2025-12-20
+  date: 2026-01-20
   pub-type: journal
   publisher: "Transactions on Control System Technology (TCST)"
   pdf: https://arxiv.org/pdf/2403.07043
@@ -480,10 +480,10 @@
 
 - title: "V-OCBF: Learning Safety Filters from Offline Data via Value-Guided Offline Control Barrier Functions"
   authors: [Mumuksh Tayal*, Manan Tayal*, Aditya Singh, Shishir Kolathaya, Ravi Prakash]
-  date: 2026-01-26
-  pub-type: workshop
-  publisher: "AAAI Workshop on Deployable AI (Oral)"
-  pdf: V_OCBF_AAAI26_DAI.pdf
+  date: 2026-03-27
+  pub-type: journal
+  publisher: "Transactions on Machine Learning Research (TMLR)"
+  pdf: https://openreview.net/pdf?id=PGO9mpIyyb
   projects: [NCBF]
 
 - title: "MULE: Multi-terrain and Unknown Load Adaptation for Effective Quadrupedal Locomotion"
@@ -496,8 +496,24 @@
 
 - title: "COMPAct: Computational Optimization and Automated Modular design of Planetary Actuators"
   authors: [Aman Singh*, Deepak Kapa*, Suryank Joshi, Shishir Kolathaya]
-  date: 2026-01-15
-  pub-type: preprint
-  publisher: "Pre-print"
+  date: 2026-06-01
+  pub-type: conference
+  publisher: "IEEE International Conference on Robotics and Automation (ICRA) 2026, Vienna, Austria"
   pdf: https://arxiv.org/pdf/2510.07197
   projects: [CodesignOptimization]
+
+- title: "A Co-Design Framework for High-Performance Jumping of a Five-Bar Monoped with Actuator Optimization"
+  authors: [Aastha Mishra, Aman Singh, Shishir Kolathaya]
+  date: 2026-07-07
+  pub-type: conference
+  publisher: "IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM) 2026, Italy"
+  pdf: https://arxiv.org/pdf/2604.06025
+  projects: [CodesignOptimization]
+
+- title: "A Robust Physics-Informed Machine Learning Framework for Safe and Optimal Control of Autonomous Systems"
+  authors: [Manan Tayal*, Aditya Singh*, Ganga Nair B, Shishir Kolathaya, Somil Bansal]
+  date: 2026-04-15
+  pub-type: preprint
+  publisher: "Pre-print"
+  pdf: Robust_piml_co_opt.pdf
+  projects: [PIMLSafePerf]
