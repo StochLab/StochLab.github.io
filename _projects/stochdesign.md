@@ -17,6 +17,7 @@ layout: project
 image: "/img/stoch13.jpg"
 last-updated: 2020-10-08
 status: inactive
+category: codesign
 ---
 ### Design & Development of Stoch 1 
 In this paper, we present a complete description of

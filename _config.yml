@@ -30,8 +30,6 @@ roles:
     name: Masters Students
   - key: ug
     name: UG Students
-  - key: fellow
-    name: Visiting Students
   - key: intern
     name: Interns
   - key: intern-alum
@@ -60,15 +58,13 @@ navigation:
   - title: Publications
     link: /publications.html
   - title: Code
-    link: /code.html
+    link: https://github.com/StochLab
 #  - title: Calendar
 #    link: /calendar.html
   - title: YouTube
     link: https://www.youtube.com/channel/UC4SBmq_fVgzyaqHHyITkSjA
   - title: Join Us
     link: /join.html
-
-theme: jekyll-theme-cayman
 
 plugins:
   - jekyll-redirect-from

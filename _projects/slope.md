@@ -18,6 +18,7 @@ layout: project
 image: "/img/CORL.gif"
 last-updated: 2020-10-15
 status: inactive
+category: learning
 ---
 
 <br>

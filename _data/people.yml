@@ -3,19 +3,19 @@ adityasingh:
     display_name: "Aditya Singh"
     webpage: "http://www.linkedin.com/in/aditya-singh-77320b207"
     image: /img/people/Aditya_Singh.jpg
-    role: staff
+    role: intern-alum
 
 amritanshu:
     display_name: "Amritanshu Jain"
     webpage: "https://www.linkedin.com/in/amritanshujain/"
     image: /img/people/Amritanshu_Jain.jpg
-    role: staff
+    role: intern-alum
 
 prakharg:
     display_name: "Prakhar Goel"
     webpage: "https://www.linkedin.com/in/prakhar-goel-4616501a5/"
     github: prakharg01
-    role: staff
+    role: intern-alum
     image: /img/people/prakhar.jpeg
 
 nithin:
@@ -28,18 +28,30 @@ adityakurande:
     display_name: "Aditya Kurande"
     webpage: "https://www.linkedin.com/in/aditya-kurande-15a644254/"
     image: /img/people/aditya_kurande.jpeg
-    role: staff
+    role: intern-alum
 
 abhijithrao:
     display_name: "V Abhijith Narayan Rao"
     webpage: "https://www.linkedin.com/in/abhijith-rao-1b33aa169/"
     image: /img/people/abhijith_rao.jpeg
-    role: staff
+    role: intern-alum
 
 rajkishore:
     display_name: "Raj Kishore"
     webpage: "https://www.linkedin.com/in/raj-kishore-55403b25a/"
     image: /img/people/raj_kishore.jpeg
+    role: staff
+
+shreyas:
+    display_name: "Shreyas"
+    webpage: "https://www.linkedin.com/in/shreyas-55403b25a/"
+    # image: /img/people/shreyas.jpeg
+    role: staff
+
+Anubhav:
+    display_name: "Anubhav"
+    webpage: "https://www.linkedin.com/in/anubhav-55403b25a/"
+    # image: /img/people/anubhav.jpeg
     role: staff
 
 
@@ -61,16 +73,16 @@ mehulanand:
 ganganair:
     display_name: "Ganga Nair"
     webpage: "https://theriverroars.github.io/ganganairb.github.io/"
-    role: masters
+    role: alum
     image: /img/people/ganga_nair.jpeg
-    bio: M.Tech. RAS
+    bio: M.Tech. RAS 2026
 
 pranavtiwari:
     display_name: "Pranav Tiwari"
     webpage: "https://pranavtiwari.co.in/"
-    role: masters
+    role: alum
     image: /img/people/pranav_tiwari.jpeg
-    bio: M.Tech. RAS
+    bio: M.Tech. RAS 2026
 
 
 # PhD Students
@@ -85,10 +97,10 @@ vamshi:
 manan:
     display_name: "Manan Tayal"
     webpage: "https://tayalmanan28.github.io/"
-    role: phd
+    role: alum
     github: tayalmanan28
     image: /img/people/manan.jpg
-    bio: Safe Robot Learning and Control
+    bio: Ph.D., 2026
 
 amansingh:
     display_name: "Aman Singh"
@@ -460,7 +472,7 @@ shounak:
 abhimanyu:
     display_name: "Abhimanyu"
     role: intern-alum
-    role: "https://fnuabhimanyu.github.io/"
+    webpage: "https://fnuabhimanyu.github.io/"
 
 kartik:
     display_name: "Kartik Paigwar"

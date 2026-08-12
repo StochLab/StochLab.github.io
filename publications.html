@@ -7,91 +7,28 @@ authors: [manan, ashirwat]
     <a href="{{ site.base }}/bib/pubs.bib">Download BibTeX.</a>
 </p> -->
 
-<!-- For Table -->
-<style>
-    .collapsible {
-    background-color: #f2f2f2;
-    cursor: pointer;
-    padding: 10px 15px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    font-weight: bold;
-    outline: none;
-    font-size: 20px;
-    margin-top: 10px;
-    position: relative;
-    }
+{% assign pubs_sorted = site.data.pubs | sort: "date" | reverse %}
 
-    .collapsible::after {
-    content: "\25BC"; /* ▼ down arrow */
-    font-size: 15px;
-    position: absolute;
-    right: 20px;
-    top: 15px;
-    transition: transform 0.3s ease;
-    }
-
-    .collapsible.active::after {
-    transform: rotate(-90deg); /* points up when active */
-    }
-
-    .content {
-    padding: 0 15px;
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-    background-color: #fafafa;
-    border-left: 3px solid #ccc;
-    border-right: 3px solid #ccc;
-    border-bottom: 3px solid #ccc;
-    }
-</style>
-  
-<br>
-<button type="button" class="collapsible">Conference Papers</button>
-<div class="content">
-  <p>&ast; - The authors have contributed equally</p>
+<section>
+  <!-- <h2>Publications</h2> -->
+  <!-- <p>&ast; - The authors have contributed equally</p> -->
   <table class="table">
     <tbody>
-      {% assign pubs_sorted = site.data.pubs | sort: "date" | reverse %}
       {% assign prev_year = 1000 %}
       {% for pub in pubs_sorted %}
-        {% if pub.pub-type == "conference" %}
-          {% include pub_entry.html pub=pub prev_year=prev_year %}
+        {% if pub.pub-type == "conference" or pub.pub-type == "preprint" or pub.pub-type == "journal" or pub.pub-type == "workshop" %}
+          {% include pub_entry.html pub=pub prev_year=prev_year show-badge=true %}
           {% assign prev_year = pub.date | date: "%Y" | plus: 0 %}
         {% endif %}
       {% endfor %}
     </tbody>
   </table>
-</div>
+</section>
 
-
-<br>
-<button type="button" class="collapsible">Pre-Prints</button>
-<div class="content">
-  <p>&ast; - The authors have contributed equally</p>
+<section>
+  <h2>Patents</h2>
   <table class="table">
     <tbody>
-      {% assign pubs_sorted = site.data.pubs | sort: "date" | reverse %}
-      {% assign prev_year = 1000 %}
-      {% for pub in pubs_sorted %}
-        {% if pub.pub-type == "preprint" %}
-          {% include pub_entry.html pub=pub prev_year=prev_year %}
-          {% assign prev_year = pub.date | date: "%Y" | plus: 0 %}
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-<br>
-<button type="button" class="collapsible">Patents</button>
-<div class="content">
-  <p>&ast; - The authors have contributed equally</p>
-  <table class="table">
-    <tbody>
-      {% assign pubs_sorted = site.data.pubs | sort: "date" | reverse %}
       {% assign prev_year = 1000 %}
       {% for pub in pubs_sorted %}
         {% if pub.pub-type == "patent" %}
@@ -101,75 +38,4 @@ authors: [manan, ashirwat]
       {% endfor %}
     </tbody>
   </table>
-</div>
-
-<br>
-<button type="button" class="collapsible">Journal</button>
-<div class="content">
-  <p>&ast; - The authors have contributed equally</p>
-  <table class="table">
-    <tbody>
-      {% assign pubs_sorted = site.data.pubs | sort: "date" | reverse %}
-      {% assign prev_year = 1000 %}
-      {% for pub in pubs_sorted %}
-        {% if pub.pub-type == "journal" %}
-          {% include pub_entry.html pub=pub prev_year=prev_year %}
-          {% assign prev_year = pub.date | date: "%Y" | plus: 0 %}
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-<br>
-<button type="button" class="collapsible">Workshop/Symposium Papers</button>
-<div class="content">
-  <p>&ast; - The authors have contributed equally</p>
-  <table class="table">
-    <tbody>
-      {% assign pubs_sorted = site.data.pubs | sort: "date" | reverse %}
-      {% assign prev_year = 1000 %}
-      {% for pub in pubs_sorted %}
-        {% if pub.pub-type == "workshop" %}
-          {% include pub_entry.html pub=pub prev_year=prev_year %}
-          {% assign prev_year = pub.date | date: "%Y" | plus: 0 %}
-        {% endif %}
-      {% endfor %}
-    </tbody>
-  </table>
-</div>
-
-<!-- <h4> Theses</h4>
-{% assign prev_year = 1000 %}
-{% assign pubs = site.data.pubs | sort: "date" | reverse %}
-<table class="table">
-    <tbody>
-        {% for pub in pubs %}
-            {% if pub.pub-type == "Thesis"%}
-                {% include pub_entry.html pub=pub prev_year=prev_year%}
-                {% assign prev_year = pub.date | date: "%Y" | to_integer %}
-            {% endif %} 
-        {% endfor %}
-    </tbody>
-</table> -->
-
-<!-- For collapsable table -->
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const collapsibles = document.querySelectorAll(".collapsible");
-      
-      collapsibles.forEach((btn) => {
-        btn.addEventListener("click", function () {
-          this.classList.toggle("active");
-          const content = this.nextElementSibling;
-          
-          if (content.style.maxHeight) {
-            content.style.maxHeight = null;
-          } else {
-            content.style.maxHeight = content.scrollHeight + "px";
-          }
-        });
-      });
-    });
-</script>
-  
+</section>

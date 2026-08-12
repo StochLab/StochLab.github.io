@@ -2,39 +2,41 @@
 layout: default
 title: Research Projects
 ---
-<p>Our lab's research spans across various domains, ranging from hardware development to the creation of controllers utilizing Optimal Controls, learning-based controls, and safety-critical controls. 
-The following projects serve as a testament to this diverse spectrum of work.</p>
+<p>
+    Our lab's research spans across various domains, ranging from hardware development to the creation of controllers utilizing Optimal Controls, learning-based controls, and safety-critical controls.
+    The following research areas and projects serve as a testament to this diverse spectrum of work.
+</p>
 
-<br>
-<br>
+{% assign projects_by_date = site.projects | sort: 'last-updated', 'first' | reverse %}
 
-<h2>Active Projects</h2>
-<div class="card-columns">
-    {% comment %}
-    Sort the projects by date, putting those without dates last
-    {% endcomment %}
-    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
-        {% if p.status != "inactive" %}
-            {% include project-card.html project=p %}
-        {% endif %}
-    {% endfor %}
-</div>
-
-<br>
-<br>
-
-<h2>Completed Projects</h2>
-<div class="card-columns">
-    {% comment %}
-    Sort the projects by date, putting those without dates last
-    {% endcomment %}
-    {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-    {% assign projects_by_date = projects_by_date | reverse %}
-    {% for p in projects_by_date %}
-        {% if p.status == "inactive" %}
-            {% include project-card.html project=p %}
-        {% endif %}
-    {% endfor %}
-</div>
+{% for area in site.data.areas %}
+    {% assign is_even = forloop.index | modulo: 2 %}
+    {% assign flip = "" %}
+    {% if is_even == 0 %}
+        {% assign flip = " flip" %}
+    {% endif %}
+    <section class="research-area{{ flip }} reveal" id="{{ area.key }}">
+        <div class="research-area-row">
+            <div class="research-area-text">
+                <h2>{{ area.name }}</h2>
+                <p>{{ area.blurb }}</p>
+            </div>
+            <div class="research-area-img">
+                {% if area.video %}
+                    <video autoplay muted loop playsinline preload="auto">
+                        <source src="{{ area.video }}" type="video/mp4">
+                    </video>
+                {% else %}
+                    <img src="{{ area.image }}" alt="{{ area.name }}">
+                {% endif %}
+            </div>
+        </div>
+        <div class="research-scroll">
+            {% for p in projects_by_date %}
+                {% if p.category == area.key %}
+                    <a class="research-tile" href="{{ site.base }}{{ p.url }}.html">{{ p.title }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </section>
+{% endfor %}

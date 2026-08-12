@@ -13,6 +13,7 @@ layout: project
 image: "/img/LinPolForceControl/stoch3_combined.GIF"
 last-updated: 2023-01-28
 status: inactive
+category: learning
 
 ---
 

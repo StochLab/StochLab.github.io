@@ -21,6 +21,7 @@ layout: project
 image: "/img/Trajopt.png"
 last-updated: 2020-10-08
 status: inactive
+category: learning
 --- 
 In this paper, we explore a specific form of
 deep reinforcement learning (D-RL) technique for quadrupedal

@@ -20,111 +20,112 @@ role-tables:
 
 
 ---
-<head>
 
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-
-
-<!-- Centering wrapper -->
-<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-  <!-- Your collage block -->
-  <div style="display: flex; flex-direction: column;"> 
-
-    <!-- Top row -->
-    <div style="display: flex; width: 100%; justify-content: center; align-items: center;">
-      <!-- <img src="{{ site.base }}/img/stochlite.gif" 
-           style="width: 30%;"> -->
-
-      <video width="30%" style="padding: 0%;" autoplay loop muted playsinline>
-        <source src="img/linearPolicySuff/stochlite.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    
-      <video width="33%" style="padding: 0%;" autoplay loop muted playsinline>
-        <source src="img/LinPolForceControl/stoch3_2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-
-      <!-- <video width="30%" style="padding: 0%;" autoplay loop muted playsinline>
-        <source src="/img/stoch3.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video> -->
-
-      <video width="30%" style="padding: 0%;" autoplay loop muted playsinline>
-        <source src="https://www.stochlab.com/MULE/images/videos/stairs_up_cut.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
+<section class="hero-video" id="home-hero">
+    <div class="hero-media" aria-hidden="true">
+        <video class="hero-slide is-active" autoplay muted loop playsinline preload="auto">
+            <source src="img/Safety_video_Manan.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video class="hero-slide" autoplay muted loop playsinline preload="auto">
+            <source src="https://www.stochlab.com/PEPC/images/results/Gravel%202%20Idr.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <video class="hero-slide" autoplay muted loop playsinline preload="auto">
+            <source src="https://www.stochlab.com/MULE/images/videos/slope_up1_cut.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
     </div>
-
-
-    <!-- Middle row -->
-    <div style="display: flex; width: 100%; justify-content: center; align-items: center;">
-      <img src="{{ site.base }}/img/spine.jpg" 
-           style="width: 25%; display: block;">
-
-      <img src="{{ site.base }}/img/word cloud.png" 
-           style="width: 40%; display: block;">
-
-      <img src="{{ site.base }}/img/cbf.png" 
-           style="width: 25%; display: block;">
-      
-      <!-- <img src="{{ site.base }}/img/lyapunov.jpg" 
-           style="width: 15%; display: block;"> -->
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+        <span class="hero-role">Robotics &amp; Control @ IISc Bengaluru</span>
+        <h1 class="hero-title">Stoch Lab</h1>
+        <p class="hero-subtitle">
+            The <strong>Stochastic Robotics Lab</strong> designs robust, learning-based and
+            safety-critical controllers for legged robots and cyber-physical systems.
+        </p>
+        <div class="interest-chips">
+            <span class="interest-chip">Legged Locomotion</span>
+            <span class="interest-chip">Learning-Based Control</span>
+            <span class="interest-chip">Safety-Critical Control</span>
+            <span class="interest-chip">Optimal Control</span>
+            <span class="interest-chip">Co-Design Optimization</span>
+        </div>
+        <div class="hero-actions">
+            <a class="btn btn-primary" href="{{ site.base }}/people.html">Meet the Team</a>
+            <a class="btn btn-outline-secondary" href="{{ site.base }}/research.html">Explore Research</a>
+        </div>
     </div>
+    <button type="button" class="hero-scroll" aria-label="Scroll down" data-hero-scroll>
+        <i class="fa-solid fa-chevron-down" aria-hidden="true"></i>
+    </button>
+</section>
 
-    <!-- Bottom image -->
-    <div style="display: flex; width: 100%; justify-content: center; align-items: center;">
-      <!-- <img src="{{ site.base }}/img/stoch3.GIF" 
-           style="width: 25%; display: block;"> -->
-      
-      <!-- <img src="{{ site.base }}/img/stochlite.gif" 
-           style="width: 25.5%; display: block;"> -->
-    </div>
-
-  </div>
-</div>
-
-
-
-
-
-<section>
+<section class="news-section reveal">
     <h2>News</h2>
-    <ul class="news list-unstyled">
-        {% for post in site.posts limit: site.front_page_news %}
-            {% include news-item.html item=post %}
-        {% endfor %}
-    </ul>
+    <div class="news-roll" data-news-roll>
+        <div class="news-track">
+            {% for post in site.posts limit: site.front_page_news %}
+                {% assign icon = post.icon | default: 'newspaper' %}
+                {% if icon == 'newspaper-o' %}
+                    {% assign icon = 'newspaper' %}
+                {% endif %}
+                <article class="news-block">
+                    <div class="news-block-head">
+                        <span class="fa fa-fw fa-{{ icon }}"></span>
+                        <span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+                    </div>
+                    {% if post.shortnews %}
+                        <p>{{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                    {% else %}
+                        <h5><a href="{{ site.base }}{{ post.url }}">{{ post.title }}</a></h5>
+                        <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}</p>
+                        <a class="news-readmore" href="{{ site.base }}{{ post.url }}">Read more &raquo;</a>
+                    {% endif %}
+                </article>
+            {% endfor %}
+        </div>
+        <button type="button" class="news-arrow prev" aria-label="Previous news" data-news-prev>
+            <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+        </button>
+        <button type="button" class="news-arrow next" aria-label="Next news" data-news-next>
+            <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+        </button>
+    </div>
     {% assign numposts = site.posts | size %}
     {% if numposts >= 1 %}
         <p>
-            <span class="fa fa-fw fa-history"></span>
+            <span class="fa fa-fw fa-clock-rotate-left"></span>
             <a href="{{ site.base }}/blog.html">Older posts&hellip;</a>
         </p>
     {% endif %}
 </section>
 
-<section>
-    <h2>Active Research</h2>
+<section class="reveal">
+    <h2>Research Areas</h2>
 
-    <div class="card-columns">
-        {% comment %}
-        Sort the projects by date, putting those without dates last
-        {% endcomment %}
-        {% assign projects_by_date = site.projects | sort: 'last-updated', 'first' %}
-        {% assign projects_by_date = projects_by_date | reverse %}
-        {% for p in projects_by_date %}
-            {% if p.status != "inactive" %}
-                {% include project-card.html project=p %}
-            {% endif %}
+    <div class="area-grid">
+        {% for area in site.data.areas %}
+            <article class="area-card reveal">
+                <div class="area-img">
+                    {% if area.video %}
+                        <video autoplay muted loop playsinline preload="metadata">
+                            <source src="{{ area.video }}" type="video/mp4">
+                        </video>
+                    {% else %}
+                        <img src="{{ area.image }}" alt="{{ area.name }}" loading="lazy">
+                    {% endif %}
+                </div>
+                <div class="area-text">
+                    <h3><a href="{{ site.base }}/research.html#{{ area.key }}">{{ area.name }}</a></h3>
+                    <p>{{ area.tagline }}</p>
+                </div>
+            </article>
         {% endfor %}
     </div>
 </section>
 
-<div id="people">
+<div id="people" class="reveal">
     <h2>People</h2>
     {% for role-table in page.role-tables %}
         <section class="people row justify-content-between">
@@ -138,3 +139,94 @@ role-tables:
         </section>
     {% endfor %}
 </div>
+
+<section class="funding reveal">
+    <h2>Funding &amp; Support</h2>
+    <div class="funding-band">
+        <div class="funding-marquee">
+            <div class="funding-track">
+                <div class="funding-set">
+                    {% for sponsor in site.data.sponsors %}
+                        <div class="funding-logo">
+                            <img src="{{ site.base }}{{ sponsor.image }}" alt="{{ sponsor.name }}" loading="lazy">
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="funding-set" aria-hidden="true">
+                    {% for sponsor in site.data.sponsors %}
+                        <div class="funding-logo">
+                            <img src="{{ site.base }}{{ sponsor.image }}" alt="">
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    (function () {
+        var slides = Array.prototype.slice.call(document.querySelectorAll('.hero-slide'));
+        var scrollBtn = document.querySelector('[data-hero-scroll]');
+        var idx = 0;
+
+        if (slides.length > 1) {
+            slides[0].classList.add('is-active');
+            try { slides[0].play(); } catch (e) {}
+            setInterval(function () {
+                var prev = slides[idx];
+                var next = slides[(idx + 1) % slides.length];
+                prev.classList.remove('is-active');
+                try { prev.pause(); } catch (e) {}
+                next.classList.add('is-active');
+                try { next.play(); } catch (e) {}
+                idx = (idx + 1) % slides.length;
+            }, 6000);
+        }
+
+        if (scrollBtn) {
+            scrollBtn.addEventListener('click', function () {
+                var hero = document.getElementById('home-hero');
+                var next = hero ? hero.nextElementSibling : null;
+                if (next && next.scrollIntoView) {
+                    next.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                } else {
+                    window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
+                }
+            });
+        }
+
+        var track = document.querySelector('[data-news-roll] .news-track');
+        if (track) {
+            var step = function (dir) {
+                var max = track.scrollWidth - track.clientWidth;
+                var left = track.scrollLeft;
+                if (dir > 0 && left >= max - 2) {
+                    track.scrollTo({ left: 0, behavior: 'smooth' });
+                } else if (dir < 0 && left <= 2) {
+                    track.scrollTo({ left: max, behavior: 'smooth' });
+                } else {
+                    track.scrollBy({ left: dir * track.clientWidth * 0.8, behavior: 'smooth' });
+                }
+            };
+            document.querySelectorAll('[data-news-prev]').forEach(function (b) {
+                b.addEventListener('click', function () { step(-1); });
+            });
+            document.querySelectorAll('[data-news-next]').forEach(function (b) {
+                b.addEventListener('click', function () { step(1); });
+            });
+            var timer = setInterval(function () {
+                if (track.matches(':hover') || track.scrollWidth <= track.clientWidth + 4) return;
+                var max = track.scrollWidth - track.clientWidth;
+                if (track.scrollLeft >= max - 2) {
+                    track.scrollTo({ left: 0, behavior: 'smooth' });
+                } else {
+                    track.scrollBy({ left: track.clientWidth * 0.8, behavior: 'smooth' });
+                }
+            }, 3500);
+            var pause = function () { clearInterval(timer); };
+            track.addEventListener('pointerdown', pause);
+            track.addEventListener('wheel', pause);
+        }
+    })();
+</script>

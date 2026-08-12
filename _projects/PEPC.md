@@ -15,4 +15,5 @@ image: "https://www.stochlab.com/PEPC/images/Deploy%20(1).png"
 last-updated: 2025-02-28
 
 redirect_to: https://stochlab.com/PEPC
+category: learning
 ---

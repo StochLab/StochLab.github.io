@@ -1,0 +1,14 @@
+- name: DRDO
+  image: /img/funding/drdo.png
+- name: ISRO
+  image: /img/funding/isro.svg
+- name: ARTPARK
+  image: /img/funding/artpark.png
+- name: KIAC
+  image: /img/funding/kiac.png
+- name: IISc
+  image: /img/funding/iisc.jpg
+- name: Government of Karnataka
+  image: /img/funding/govtofkarnataka.png
+- name: DST
+  image: /img/funding/dst.jpg

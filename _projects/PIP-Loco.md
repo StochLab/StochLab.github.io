@@ -14,4 +14,5 @@ image: "https://www.stochlab.com/PIP-Loco/images/results/stairs.gif"
 last-updated: 2024-09-28
 
 redirect_to: https://stochlab.com/PIP-Loco
+category: learning
 ---

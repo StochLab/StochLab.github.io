@@ -37,11 +37,19 @@
 {% endcapture %}
 
 
-<tr>
+<tr {% if include.hidden %}hidden class="pub-more-row"{% endif %}>
     <td>
         {{ date }}
     </td>
     <td class="publication">
+        {% if include.show-badge and pub.pub-type %}
+            {% if pub.pub-type == "conference" %}{% assign badge-label = "Conference Paper" %}
+            {% elsif pub.pub-type == "preprint" %}{% assign badge-label = "Preprint" %}
+            {% elsif pub.pub-type == "journal" %}{% assign badge-label = "Journal" %}
+            {% elsif pub.pub-type == "workshop" %}{% assign badge-label = "Workshop" %}
+            {% else %}{% assign badge-label = pub.pub-type | capitalize %}{% endif %}
+            <span class="pub-badge {{ pub.pub-type }}">{{ badge-label }}</span>
+        {% endif %}
         <span class="pubtitle">
             {{ title }}
         </span><br />

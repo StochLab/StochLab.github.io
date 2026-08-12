@@ -17,6 +17,7 @@ layout: project
 image: "/img/StochBiRo.png"
 last-updated: 2024-04-28
 status: inactive
+category: humanoid
 ---
 ### Abstract 
 This paper introduces the Stoch BiRo, a cost-effective bipedal robot designed with a modular mechanical structure having point feet to navigate uneven and unfamiliar terrains. The robot employs proprioceptive actuation in abduction, hips, and knees, leveraging a Raspberry Pi4 for control. Overcoming computational limitations, a Learning-based Linear Policy controller manages balance and locomotion with only 3 degrees of freedom (DoF) per leg, distinct from the typical 5DoF in bipedal systems. Integrated within a modular control architecture, these controllers enable autonomous handling of unforeseen terrain disturbances without external sensors or prior environment knowledge. Demonstrating efficiency through low Cost of Transport (CoT) across varying walking speeds and blind stair climbing, the robot's policies are trained and simulated using MuJoCo, transferring learned behaviors to the Stoch BiRo hardware for initial walking validations. This work highlights the Stoch BiRo's adaptability and cost-effectiveness in mechanical design, control strategies, and autonomous navigation, promising diverse applications in real-world robotics scenarios.

@@ -12,4 +12,5 @@ image: "https://www.stochlab.com/MULE/images/results/adaptive_success_2x-ezgif.g
 last-updated: 2025-02-28
 
 redirect_to: https://stochlab.com/MULE
+category: learning
 ---

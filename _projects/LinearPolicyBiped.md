@@ -12,6 +12,7 @@ layout: project
 image: "/img/linearPolicySuff/all_combined.gif"
 last-updated: 2021-08-07
 status: inactive
+category: learning
 ---
 
 <br>

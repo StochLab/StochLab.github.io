@@ -18,6 +18,7 @@ layout: project
 image: "/img/3-Figure3-1.png"
 last-updated: 2020-10-08
 status: inactive
+category: learning
 ---
 ### Learning Stable Manoeuvres in Quadruped Robots from Expert Demonstrations 
 With the research into development of quadruped

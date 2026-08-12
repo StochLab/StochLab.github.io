@@ -14,6 +14,7 @@ layout: project
 image: "/img/DeMoRL/all_combined.gif"
 last-updated: 2022-01-31
 status: inactive
+category: learning
 ---
 
 <br>

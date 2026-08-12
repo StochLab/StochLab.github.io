@@ -13,6 +13,7 @@ people:
 layout: project
 image: "/img/phys_ml_safe_opt.png"
 last-updated: 2025-02-16
+category: safety
 
 ---
 

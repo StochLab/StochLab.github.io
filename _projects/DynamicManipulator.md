@@ -13,6 +13,7 @@ layout: project
 image: "/img/manipulator/manipulator.png"
 last-updated: 2023-11-30
 status: inactive
+category: codesign
 
 ---
 

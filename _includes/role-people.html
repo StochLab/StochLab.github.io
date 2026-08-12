@@ -1,16 +1,57 @@
 
 {% assign role-key = include.role %}
 
+{% if role-key == "collaborator" or role-key == "staff" %}
+    {% assign limit = 4 %}
+{% elsif role-key == "intern-alum" or role-key == "alum" %}
+    {% assign limit = 6 %}
+{% else %}
+    {% assign limit = 9999 %}
+{% endif %}
+
 {% for role in site.roles %}
     {% if role.key == role-key %}
         <h3 class="pt-3"> {{ role.name }} </h3>
         <div class="role {{ role.key }}">
+            {% comment %} Count people in this role {% endcomment %}
+            {% assign total = 0 %}
             {% for item in site.data.people %}
                 {% assign person = item[1] %}
                 {% if person.role == role.key %}
-                    {% include person.html person=person image=include.image %}
+                    {% assign total = total | plus: 1 %}
                 {% endif %}
             {% endfor %}
+
+            {% comment %} First {{ limit }} people {% endcomment %}
+            {% assign shown = 0 %}
+            {% for item in site.data.people %}
+                {% assign person = item[1] %}
+                {% if person.role == role.key %}
+                    {% assign shown = shown | plus: 1 %}
+                    {% if shown <= limit %}
+                        {% include person.html person=person image=include.image %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+
+            {% if total > limit %}
+                <button type="button" class="people-more" data-toggle-more
+                        data-more-label="Show more ({{ total | minus: limit }})"
+                        data-less-label="Show less"
+                        aria-expanded="false">Show more ({{ total | minus: limit }})</button>
+                <div class="people-more-box" hidden>
+                    {% assign shown2 = 0 %}
+                    {% for item in site.data.people %}
+                        {% assign person = item[1] %}
+                        {% if person.role == role.key %}
+                            {% assign shown2 = shown2 | plus: 1 %}
+                            {% if shown2 > limit %}
+                                {% include person.html person=person image=include.image %}
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            {% endif %}
         </div>
     {% endif %}
 {% endfor %}

@@ -1,0 +1,42 @@
+- key: learning
+  name: End-to-End Learning-Based Control for Legged Locomotion
+  tagline: Learning-based controllers that let robots walk, run, and adapt on real terrain.
+  blurb: |
+    We develop learning-based control frameworks that let legged robots move
+    robustly over challenging terrain. By combining reinforcement learning,
+    trajectory optimization, and model-based planning, our methods produce control
+    policies — often simple linear or mirror-descent structures — that transfer
+    directly to real hardware and adapt online to unknown loads, slopes, and stairs.
+  image: https://www.stochlab.com/PIP-Loco/images/results/plm.gif
+
+- key: safety
+  name: Safety-Critical Control
+  tagline: Formal safety guarantees that keep legged robots out of harm's way.
+  blurb: |
+    We build safety-critical control methods that provide formal guarantees
+    without sacrificing performance. Using control barrier functions and
+    physics-informed learning, our work keeps legged robots and autonomous
+    systems inside safe sets — avoiding collisions, energy violations, and
+    unsafe states even under stochastic uncertainty.
+  video: /img/Safety_video_Manan.mp4
+
+- key: codesign
+  name: Co-Design for Legged Systems
+  tagline: Optimizing robot bodies and controllers together for maximum performance.
+  blurb: |
+    We treat a robot's morphology and its controller as one coupled design
+    problem. Through co-design and actuator optimization, our lab simultaneously
+    optimizes hardware parameters and control policies — from active spines and
+    dynamic manipulators to full quadruped platforms — to push the limits of
+    what these systems can do.
+  image: /img/spine.jpg
+
+- key: humanoid
+  name: Humanoids Research
+  tagline: Pushing humanoid and bipedal robots toward real-world agility.
+  blurb: |
+    Our humanoids research targets bipedal and humanoid platforms that can
+    traverse real-world terrain. We develop learning-based control pipelines
+    that make these complex, underactuated systems stable, efficient, and
+    agile in the face of disturbances.
+  image: /img/linearPolicySuff/all_combined.gif

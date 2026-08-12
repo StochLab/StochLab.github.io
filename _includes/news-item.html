@@ -2,36 +2,39 @@
 {% assign item = include.item %}
 {% if item.icon %}
 {% assign icon = item.icon %}
+{% if icon == "newspaper-o" %}
+{% assign icon = "newspaper" %}
+{% endif %}
 {% assign class = "shortnews" %}
 {% else %}
-{% assign icon = "newspaper-o" %}
+{% assign icon = "newspaper" %}
 {% endif %}
 
 {% capture news %}
     <div>
-        {% if post.shortnews %}
-            {{ post.content | markdownify | remove: '<p>' | remove: '</p>' }}
+        {% if item.shortnews %}
+            {{ item.content | markdownify | remove: '<p>' | remove: '</p>' }}
         {% else %}
-            <h5> <a href="{{ site.base }}{{ post.url }}"> {{ post.title }} </a> </h5>
-            {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+            <h5> <a href="{{ site.base }}{{ item.url }}"> {{ item.title }} </a> </h5>
+            {{ item.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
             <br>
-            <a href="{{ site.base }}{{ post.url }}"> Read more &raquo;</a>
+            <a href="{{ site.base }}{{ item.url }}"> Read more &raquo;</a>
         {% endif %}
     </div>
 {% endcapture %}
 
 {% capture header %}
 <span class="fa fa-fw fa-{{ icon }}"></span>
-<span class="date">{{ post.date | date: '%B %d, %Y' }}</span>
+<span class="date">{{ item.date | date: '%B %d, %Y' }}</span>
 {% endcapture %}
 
 <li class="{{ class }}">
-    {% if post.image %}
+    {% if item.image %}
 
         {% capture img %}
             <img class="img-fluid d-block mx-auto"
-                 style="{{ post.image_style }}"
-                 src="{{ post.image }}">
+                 style="{{ item.image_style }}"
+                 src="{{ item.image }}">
         {% endcapture %}
 
         <div class="row">
@@ -40,8 +43,8 @@
                 {{ news }}
             </div>
             <div class="col-sm-2">
-                {% if post.image_link %}
-                    <a href="{{ post.image_link }}">{{ img }}</a>
+                {% if item.image_link %}
+                    <a href="{{ item.image_link }}">{{ img }}</a>
                 {% else %}
                     {{ img }}
                 {% endif %}
