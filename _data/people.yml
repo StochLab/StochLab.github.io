@@ -1,40 +1,9 @@
 #Current Staff members
-adityasingh:
-    display_name: "Aditya Singh"
-    webpage: "http://www.linkedin.com/in/aditya-singh-77320b207"
-    image: /img/people/Aditya_Singh.jpg
-    role: intern-alum
-
-amritanshu:
-    display_name: "Amritanshu Jain"
-    webpage: "https://www.linkedin.com/in/amritanshujain/"
-    image: /img/people/Amritanshu_Jain.jpg
-    role: intern-alum
-
-prakharg:
-    display_name: "Prakhar Goel"
-    webpage: "https://www.linkedin.com/in/prakhar-goel-4616501a5/"
-    github: prakharg01
-    role: intern-alum
-    image: /img/people/prakhar.jpeg
-
 nithin:
     display_name: "Nithin Vasishta"
     webpage: "https://www.linkedin.com/in/nithin-vasishta/"
     image: /img/people/nithin.png
     role: staff
-
-adityakurande:
-    display_name: "Aditya Kurande"
-    webpage: "https://www.linkedin.com/in/aditya-kurande-15a644254/"
-    image: /img/people/aditya_kurande.jpeg
-    role: intern-alum
-
-abhijithrao:
-    display_name: "V Abhijith Narayan Rao"
-    webpage: "https://www.linkedin.com/in/abhijith-rao-1b33aa169/"
-    image: /img/people/abhijith_rao.jpeg
-    role: intern-alum
 
 rajkishore:
     display_name: "Raj Kishore"
@@ -54,6 +23,12 @@ Anubhav:
     # image: /img/people/anubhav.jpeg
     role: staff
 
+Anubhav:
+    display_name: "Saketh Vegesna"
+    webpage: "https://github.com/SakethGG"
+    # image: /img/people/anubhav.jpeg
+    role: staff
+
 
 
 # Intern 
@@ -70,19 +45,19 @@ mehulanand:
 
 
 # MTech Students
-ganganair:
-    display_name: "Ganga Nair"
-    webpage: "https://theriverroars.github.io/ganganairb.github.io/"
-    role: alum
-    image: /img/people/ganga_nair.jpeg
-    bio: M.Tech. RAS 2026
+rayaan:
+    display_name: "Rayaan Ghosh"
+    webpage: "https://www.linkedin.com/in/rayaan-ghosh/"
+    role: masters
+    # image: /img/people/ganga_nair.jpeg
+    bio: M.Tech. RAS
 
-pranavtiwari:
-    display_name: "Pranav Tiwari"
-    webpage: "https://pranavtiwari.co.in/"
-    role: alum
-    image: /img/people/pranav_tiwari.jpeg
-    bio: M.Tech. RAS 2026
+utkarshvats:
+    display_name: "Utkarsh Vats"
+    webpage: "https://www.linkedin.com/in/utkarshvats/"
+    role: masters
+    # image: /img/people/pranav_tiwari.jpeg
+    bio: M.Tech. RAS
 
 
 # PhD Students
@@ -93,14 +68,6 @@ vamshi:
     github: vamshikumarkurva
     image: /img/people/vamshikumar.png
     bio: Learning Based Adaptive Control
-
-manan:
-    display_name: "Manan Tayal"
-    webpage: "https://tayalmanan28.github.io/"
-    role: alum
-    github: tayalmanan28
-    image: /img/people/manan.jpg
-    bio: Ph.D., 2026
 
 amansingh:
     display_name: "Aman Singh"
@@ -140,13 +107,35 @@ sudesh:
 
 
 # Alumni
+manan:
+    display_name: "Manan Tayal"
+    webpage: "https://tayalmanan28.github.io/"
+    role: alum
+    github: tayalmanan28
+    image: /img/people/manan.jpg
+    bio: Ph.D., 2026
+
 pramod:
     display_name: "Pramod Pal"
     webpage: "https://www.linkedin.com/in/pramodiisc/"
     github: ppalcx
     role: alum
     image: /img/people/pramod.jpg
-    bio: Ph.D., 2025
+    bio: Ph.D., 2026
+
+ganganair:
+    display_name: "Ganga Nair"
+    webpage: "https://theriverroars.github.io/ganganairb.github.io/"
+    role: alum
+    image: /img/people/ganga_nair.jpeg
+    bio: M.Tech. RAS 2026
+
+pranavtiwari:
+    display_name: "Pranav Tiwari"
+    webpage: "https://pranavtiwari.co.in/"
+    role: alum
+    image: /img/people/pranav_tiwari.jpeg
+    bio: M.Tech. RAS 2026
 
 krankit:
     display_name: "Kumar Ankit"
@@ -263,6 +252,38 @@ soumya:
 
 
 # Intern-Alumni
+
+adityakurande:
+    display_name: "Aditya Kurande"
+    webpage: "https://www.linkedin.com/in/aditya-kurande-15a644254/"
+    image: /img/people/aditya_kurande.jpeg
+    role: intern-alum
+
+abhijithrao:
+    display_name: "V Abhijith Narayan Rao"
+    webpage: "https://www.linkedin.com/in/abhijith-rao-1b33aa169/"
+    image: /img/people/abhijith_rao.jpeg
+    role: intern-alum
+
+adityasingh:
+    display_name: "Aditya Singh"
+    webpage: "http://www.linkedin.com/in/aditya-singh-77320b207"
+    image: /img/people/Aditya_Singh.jpg
+    role: intern-alum
+
+amritanshu:
+    display_name: "Amritanshu Jain"
+    webpage: "https://www.linkedin.com/in/amritanshujain/"
+    image: /img/people/Amritanshu_Jain.jpg
+    role: intern-alum
+
+prakharg:
+    display_name: "Prakhar Goel"
+    webpage: "https://www.linkedin.com/in/prakhar-goel-4616501a5/"
+    github: prakharg01
+    role: intern-alum
+    image: /img/people/prakhar.jpeg
+
 sarveshprasanth:
     display_name: "Sarvesh Prasanth V"
     webpage: "https://www.linkedin.com/in/sarvesh-prasanth-v"
