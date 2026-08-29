@@ -23,26 +23,12 @@ Anubhav:
     # image: /img/people/anubhav.jpeg
     role: staff
 
-Anubhav:
+Saketh:
     display_name: "Saketh Vegesna"
     webpage: "https://github.com/SakethGG"
-    # image: /img/people/anubhav.jpeg
     role: staff
 
-
-
 # Intern 
-deepakkapa:
-    display_name: "Deepak Kapa"
-    webpage: "https://www.linkedin.com/in/deepak-kapa-iitr26/"
-    image: /img/people/Deepak_kappa.png
-    role: intern
-
-mehulanand:
-    display_name: "Mehul Anand"
-    webpage: "https://www.linkedin.com/in/mehul-anand-7954b1250/"
-    role: intern
-
 
 # MTech Students
 rayaan:
@@ -102,6 +88,13 @@ sudesh:
     role: phd
     image: /img/people/Sudesh_Morey.jpg
     bio: Neuromorphic Event Cameras
+
+satyamgupta:
+    display_name: "Satyam Gupta"
+    webpage: "https://www.linkedin.com/in/satyamgupta27/"
+    image: /img/people/Satyam_Gupta.jpg
+    role: phd
+    bio: Offline Reinforcement Learning
 
 # UG
 
@@ -284,6 +277,17 @@ prakharg:
     role: intern-alum
     image: /img/people/prakhar.jpeg
 
+deepakkapa:
+    display_name: "Deepak Kapa"
+    webpage: "https://www.linkedin.com/in/deepak-kapa-iitr26/"
+    image: /img/people/Deepak_kappa.png
+    role: intern-alum
+
+mehulanand:
+    display_name: "Mehul Anand"
+    webpage: "https://www.linkedin.com/in/mehul-anand-7954b1250/"
+    role: intern-alum
+
 sarveshprasanth:
     display_name: "Sarvesh Prasanth V"
     webpage: "https://www.linkedin.com/in/sarvesh-prasanth-v"
@@ -295,12 +299,6 @@ ksrinivas:
     webpage: "https://www.linkedin.com/in/sri-k08/"
     role: intern-alum
     image: /img/people/K_Srinivas.jpeg
-
-satyamgupta:
-    display_name: "Satyam Gupta"
-    webpage: "https://www.linkedin.com/in/satyamgupta27/"
-    image: /img/people/Satyam_Gupta.jpg
-    role: intern-alum
 
 mananarora:
     display_name: "Manan Arora"
