@@ -318,6 +318,14 @@
   pdf: https://arxiv.org/pdf/2409.18049
   projects: [Quadruped]
 
+- title: "Semi-Supervised Safe Visuomotor Policy Synthesis using Barrier Certificates"
+  authors: [Manan Tayal*, Aditya Singh*, Pushpak Jagtap, Shishir Kolathaya]
+  date: 2024-10-15
+  pub-type: workshop
+  publisher: "IROS Workshop on Formal Methods & Techniques in Robotic Systems, 2024, Abu Dhabi, UAE"
+  pdf: https://arxiv.org/pdf/2409.12616
+  projects: [NCBF]
+
 - title: "Discrete time model predictive control for humanoid walking with step adjustment"
   authors: [Vishnu Joshi, Suraj Kumar, Shishir Kolathaya]
   date: 2024-12-10
@@ -430,6 +438,13 @@
   pdf: https://ieeexplore.ieee.org/abstract/document/11203144
   projects: [CodesignOptimization]
 
+- title: "Real-Time Gait Adaptation for Quadrupeds using Model Predictive Control and Reinforcement Learning"
+  authors: [Prakrut Kotecha, Ganga Nair B, Shishir Kolathaya]
+  date: 2025-10-01
+  pub-type: conference
+  publisher: "2025 IEEE-RAS 24th International Conference on Humanoid Robots (Late Breaking Results)"
+  projects: [PEPC]
+
 - title: "Safety Certification in the Latent Space Using Control Barrier Functions and World Models"
   authors: [Mehul Anand, Shishir Kolathaya]
   date: 2025-12-01
@@ -480,6 +495,14 @@
 
 - title: "V-OCBF: Learning Safety Filters from Offline Data via Value-Guided Offline Control Barrier Functions"
   authors: [Mumuksh Tayal*, Manan Tayal*, Aditya Singh, Shishir Kolathaya, Ravi Prakash]
+  date: 2026-01-26
+  pub-type: workshop
+  publisher: "AAAI Workshop on Deployable AI (Oral)"
+  pdf: https://arxiv.org/pdf/2512.10822
+  projects: [NCBF]
+
+- title: "V-OCBF: Learning Safety Filters from Offline Data via Value-Guided Offline Control Barrier Functions"
+  authors: [Mumuksh Tayal*, Manan Tayal*, Aditya Singh, Shishir Kolathaya, Ravi Prakash]
   date: 2026-03-27
   pub-type: journal
   publisher: "Transactions on Machine Learning Research (TMLR)"
@@ -517,3 +540,55 @@
   publisher: "Pre-print"
   pdf: Robust_piml_co_opt.pdf
   projects: [PIMLSafePerf]
+
+- title: "Integrating Gradient-Based MPC and Control Barrier Functions for Safe and Performant Control"
+  authors: [Aditya Singh, Aastha Mishra, Manan Tayal, Shishir Kolathaya]
+  date: 2026-06-01
+  pub-type: workshop
+  publisher: "Frontiers of Optimization for Robotics Workshop, ICRA 2026, Vienna, Austria (Lehar 4, June 1)"
+  projects: [CBF]
+
+- title: "A Predictive Safety Filter for Contact Rich Legged Locomotion"
+  authors: [Aditya Shirwatkar, Shishir Kolathaya, Aaron Johnson, Majid Khadiv]
+  date: 2026-06-01
+  pub-type: workshop
+  publisher: "Workshop on the Path Towards Generalizable Contact-Rich Robotics: Control and Representation (CR2), ICRA 2026, Vienna, Austria (Lehar 2, June 1)"
+  projects: [Quadruped]
+
+- title: "STRIDE: Structured Lagrangian and Stochastic Residual Dynamics via Flow Matching"
+  authors: [Prakrut Kotecha, Ganga Nair, Shishir Kolathaya]
+  date: 2026-06-01
+  pub-type: workshop
+  publisher: "Workshop on the Path Towards Generalizable Contact-Rich Robotics: Control and Representation (CR2), ICRA 2026, Vienna, Austria (Lehar 2, June 1)"
+  projects: [PEPC]
+
+- title: "CP-NCBF: A Conformal Prediction-based Approach to Synthesize Verified Neural Control Barrier Functions"
+  authors: [Manan Tayal, Aditya Singh, Pushpak Jagtap, Shishir Kolathaya]
+  date: 2026-06-05
+  pub-type: workshop
+  publisher: "Uncertainty in Open-World Robotics Workshop, ICRA 2026, Vienna, Austria (Strauss 1, June 5)"
+  pdf: https://arxiv.org/pdf/2503.17395
+  projects: [NCBF]
+
+- title: "PhysFlow: Physics-Grounded Visual World Models via Flow Matching and Lagrangian Neural Networks"
+  authors: [Prakrut Kotecha, Shishir Kolathaya]
+  date: 2026-06-01
+  pub-type: workshop
+  publisher: "CVPR 2026 Workshop on Embodied AI"
+  projects: [PEPC]
+
+- title: "Data-Driven Physics Embedded Dynamics with Predictive Control and Reinforcement Learning for Quadrupeds"
+  authors: [Prakrut Kotecha, Aditya Shirwatkar, Shishir Kolathaya]
+  date: 2026-08-18
+  pub-type: conference
+  publisher: "IEEE International Conference on Automation Science and Engineering (CASE) 2026, Shenyang, China"
+  pdf: https://www.stochlab.com/PEPC/
+  projects: [PEPC]
+
+- title: "VIP-Loco: A Visually Guided Infinite Horizon Planning Framework for Legged Locomotion"
+  authors: [Aditya Shirwatkar, Satyam Gupta, Shishir Kolathaya]
+  date: 2026-08-18
+  pub-type: conference
+  publisher: "IEEE International Conference on Automation Science and Engineering (CASE) 2026, Shenyang, China"
+  pdf: https://www.stochlab.com/VIP-Loco/
+  projects: [VIP-Loco]
