@@ -47,14 +47,6 @@ utkarshvats:
 
 
 # PhD Students
-vamshi:
-    display_name: "Vamshi Kumar Kurva"
-    webpage: "https://vamshikumarkurva.github.io/"
-    role: phd
-    github: vamshikumarkurva
-    image: /img/people/vamshikumar.png
-    bio: Learning Based Adaptive Control
-
 amansingh:
     display_name: "Aman Singh"
     webpage: "https://singhaman1750.github.io/"
@@ -100,6 +92,14 @@ satyamgupta:
 
 
 # Alumni
+vamshi:
+    display_name: "Vamshi Kumar Kurva"
+    webpage: "https://vamshikumarkurva.github.io/"
+    role: alum
+    github: vamshikumarkurva
+    image: /img/people/vamshikumar.png
+    bio: Learning Based Adaptive Control
+
 manan:
     display_name: "Manan Tayal"
     webpage: "https://tayalmanan28.github.io/"
