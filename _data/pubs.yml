@@ -600,9 +600,17 @@
   pdf: https://arxiv.org/pdf/2506.21697v2
   projects: [NCBF]
 
-# PhD Theses
+# Theses
 - title: "Towards Trustworthy Autonomy in Uncertain Environments: Synthesis of Verified Safe and Performant Control Policies for Autonomous Systems"
   authors: [manan]
   year: 2026
   pub-type: thesis
-  # pdf: Manan_Tayal_PhD_Thesis.pdf   # add the PDF to /papers and uncomment
+  publisher: "Ph.D. Thesis, Indian Institute of Science"
+  pdf: Manan_PhD_Thesis_.pdf
+
+- title: "Neural Control Barrier Functions from Physics Informed Neural Networks"
+  authors: [shreenaba]
+  year: 2025
+  pub-type: thesis
+  publisher: "BS (Research) Thesis, Indian Institute of Science"
+  pdf: Shreenabh_BS_Thesis.pdf
