@@ -1,0 +1,28 @@
+---
+layout: thesis
+title: "Towards Trustworthy Autonomy in Uncertain Environments: Synthesis of Verified Safe and Performant Control Policies for Autonomous Systems"
+citation_title: "Towards Trustworthy Autonomy in Uncertain Environments: Synthesis of Verified Safe and Performant Control Policies for Autonomous Systems"
+citation_authors: [Manan Tayal]
+citation_date: 2026
+citation_institution: Indian Institute of Science
+degree: Ph.D.
+supervisors: [Prof. Shishir Kolathaya, Prof. Pushpak Jagtap]
+pdf: Manan_PhD_Thesis.pdf
+bibtex_type: phdthesis
+bibtex_key: tayal2026trustworthy
+citation_keywords: [Neural Safety Certificates, Control Barrier Functions, Hamilton–Jacobi Reachability, Safe Reinforcement Learning, Conformal Prediction, Physics-Informed Learning, Multi-Agent Systems, Visuomotor Control, Trustworthy Autonomy]
+abstract: |
+  Autonomous systems are increasingly deployed in uncertain, dynamic, and safety-critical environments where reliability is essential. Trustworthy autonomy in such settings rests on two fundamental pillars: safety, ensuring that catastrophic states are never reached, and performance, ensuring that control objectives are achieved efficiently. Classical control theory provides rigorous safety guarantees through tools such as Control Barrier Functions and Hamilton–Jacobi reachability analysis. However, these approaches rely on accurate system models and face significant scalability limitations in high-dimensional or perception-driven settings. Learning-based control methods like Reinforcement Learning, on the other hand, scales to complex environments and operate under model uncertainty, yet they typically lack any formal assurances. Bridging this divide is central to enabling trustworthy autonomous systems.
+
+  This thesis develops a unified framework for learning verified safe control policies under uncertainty and progressively extending them toward safety–performance co-optimization in increasingly complex systems. The central premise is that safety certificates can be parameterized by neural networks, synthesized from finite datasets, and verified or statistically calibrated to retain rigorous guarantees.
+
+  The thesis begins by addressing safety verification for deterministic and stochastic control-affine systems. Neural Control Barrier Functions are learned from sampled data and certified using Lipschitz-based bounds and verification-in-the-loop synthesis. To reduce conservatism and remove dependence on global smoothness assumptions, split conformal prediction is incorporated to obtain distribution-free, finite-sample safety guarantees for learned barrier functions.
+
+  Building on verified safety, the framework then moves beyond local forward invariance. Collision-cone barrier formulations incorporate geometric look-ahead, and Value-Guided Control Barrier Functions unify reachability analysis with offline reinforcement learning to approximate long-horizon safe sets from data without requiring explicit system models.
+
+  The thesis next advances toward joint safety and performance co-optimization as a single objective. State-constrained optimal control is reformulated as a Hamilton–Jacobi–Bellman Partial Differential Equation and solved using physics-informed neural networks, enabling the synthesis of control policies that are both safe and near-optimal. Conformal calibration provides finite-sample reliability guarantees, and decentralized formulations allow scalability to high-dimensional and multi-agent systems.
+
+  Finally, the framework is extended from state-based control to perception-driven autonomy by learning barrier functions in latent spaces derived from raw visual observations. This enables certified visuomotor control without explicit state estimation, thereby scaling safety guarantees to high-dimensional sensory inputs.
+
+  Collectively, this thesis demonstrates that safe control policies can be learned from finite data, formally verified under uncertainty, and systematically extended toward safety–performance co-optimization in high-dimensional and multi-agent settings. By progressing from safety verification to scalable, perception-driven control, this work contributes toward a principled foundation for trustworthy autonomy in uncertain environments.
+---

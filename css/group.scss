@@ -1326,3 +1326,31 @@ figure img { border-radius: 10px; }
 
     .js .reveal { opacity: 1; transform: none; }
 }
+
+/* ---------- Thesis pages (/theses) ---------- */
+.thesis-page { max-width: 820px; }
+.thesis-meta { color: var(--text-secondary); line-height: 1.7; }
+.thesis-author { color: var(--text-main); font-weight: 600; font-size: 1.1rem; }
+.thesis-pdf {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    font-weight: 500;
+}
+.thesis-pdf:hover { background: var(--card-glass); }
+.thesis-page h2 { font-size: 1.35rem; margin-top: 2rem; }
+.thesis-abstract p { text-align: justify; }
+.thesis-keywords { color: var(--text-secondary); }
+.thesis-bibtex {
+    background: var(--card-glass);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--text-main);
+    font-family: "JetBrains Mono", monospace;
+    font-size: 0.85rem;
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
+.pub-abstract-link { font-size: 0.9rem; }

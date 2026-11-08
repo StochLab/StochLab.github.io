@@ -4,7 +4,12 @@
         <title>{% if page.title and page.title != 'Home' %}{{ page.title }} · {% endif %}{{ site.name }}</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        {% if page.citation_title %}
+        <meta name="description" content="{{ page.abstract | strip_html | normalize_whitespace | truncate: 300 | escape }}">
+        {% include citation-meta.html %}
+        {% else %}
         <meta name="description" content="{{ site.name }} — Stochastic Robotics Lab at IISc Bengaluru.">
+        {% endif %}
         <script>
             (function () {
                 var t = 'light';

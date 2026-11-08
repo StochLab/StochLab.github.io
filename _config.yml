@@ -2,6 +2,8 @@ name: Stoch Lab
 url: "stochlab.github.io"
 baseurl: ""
 base: ""
+# Absolute site address, used in the Google Scholar tags on /theses pages.
+scholar_url: "https://www.stochlab.com"
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 

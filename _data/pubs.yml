@@ -601,16 +601,18 @@
   projects: [NCBF]
 
 # Theses
-- title: "Towards Trustworthy Autonomy in Uncertain Environments: Synthesis of Verified Safe and Performant Control Policies for Autonomous Systems"
-  authors: [manan]
-  year: 2026
-  pub-type: thesis
-  publisher: "Ph.D. Thesis, Indian Institute of Science"
-  pdf: Manan_PhD_Thesis.pdf
-
 - title: "Neural Control Barrier Functions from Physics Informed Neural Networks"
   authors: [shreenaba]
   year: 2026
   pub-type: thesis
   publisher: "BS (Research) Thesis, Indian Institute of Science"
   pdf: Shreenabh_BS_Thesis.pdf
+  page: /theses/shreenabh-agrawal-bs.html
+
+- title: "Towards Trustworthy Autonomy in Uncertain Environments: Synthesis of Verified Safe and Performant Control Policies for Autonomous Systems"
+  authors: [manan]
+  year: 2026
+  pub-type: thesis
+  publisher: "Ph.D. Thesis, Indian Institute of Science"
+  pdf: Manan_PhD_Thesis.pdf
+  page: /theses/manan-tayal-phd.html

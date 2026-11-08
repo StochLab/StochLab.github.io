@@ -74,6 +74,9 @@
                 {{ pub.venue | strip }}.
             </span>
         {% endif %}
+        {% if pub.page %}
+            <br /><a class="pub-abstract-link" href="{{ site.base }}{{ pub.page }}">Abstract &amp; citation</a>
+        {% endif %}
         {% if pub.status %}
             <span class="status">
                 ({{ pub.status | strip }})
