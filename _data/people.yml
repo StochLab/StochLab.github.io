@@ -91,7 +91,7 @@ satyamgupta:
 # UG
 
 
-# Alumni (role: phd-alum or masters-alum)
+# Alumni (role: phd-alum, masters-alum or bachelors-alum)
 vamshi:
     display_name: "Vamshi Kumar Kurva"
     webpage: "https://vamshikumarkurva.github.io/"
@@ -176,7 +176,7 @@ saga:
 shreenaba:
     display_name: "Shreenabh Agrawal"
     image: /img/people/shreenabh_agrawal.jpeg
-    role: masters-alum
+    role: bachelors-alum
     webpage: "https://in.linkedin.com/in/shreenabh"
     bio: BS Physics, 2025
 

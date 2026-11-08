@@ -40,6 +40,8 @@ roles:
     name: PhD Alumni
   - key: masters-alum
     name: Masters Alumni
+  - key: bachelors-alum
+    name: Bachelors Alumni
 
 # Number of news stories on the front page.
 front_page_news: 4
