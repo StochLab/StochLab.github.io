@@ -26,6 +26,20 @@ authors: [manan, ashirwat]
 </section>
 
 <section>
+  <h2>Thesis</h2>
+  <table class="table">
+    <tbody>
+      {% assign prev_year = 1000 %}
+      {% assign theses = site.data.pubs | where: "pub-type", "thesis" | sort: "year" | reverse %}
+      {% for pub in theses %}
+        {% include pub_entry.html pub=pub prev_year=prev_year %}
+        {% assign prev_year = pub.year | plus: 0 %}
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section>
   <h2>Patents</h2>
   <table class="table">
     <tbody>

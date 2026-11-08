@@ -592,3 +592,9 @@
   publisher: "IEEE International Conference on Automation Science and Engineering (CASE) 2026, Shenyang, China"
   pdf: https://www.stochlab.com/VIP-Loco/
   projects: [VIP-Loco]
+# PhD Theses
+- title: "Towards Trustworthy Autonomy in Uncertain Environments: Synthesis of Verified Safe and Performant Control Policies for Autonomous Systems"
+  authors: [manan]
+  year: 2026
+  pub-type: thesis
+  # pdf: Manan_Tayal_PhD_Thesis.pdf   # add the PDF to /papers and uncomment
