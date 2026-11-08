@@ -592,6 +592,14 @@
   publisher: "IEEE International Conference on Automation Science and Engineering (CASE) 2026, Shenyang, China"
   pdf: https://www.stochlab.com/VIP-Loco/
   projects: [VIP-Loco]
+- title: "Stochastic Neural Control Barrier Functions"
+  authors: [Hongchao Zhang, Manan Tayal, Jackson Cox, Pushpak Jagtap, Shishir Kolathaya, Andrew Clark]
+  date: 2026-10-08
+  pub-type: journal
+  publisher: "IEEE Transactions on Automatic Control (TAC)"
+  pdf: https://arxiv.org/pdf/2506.21697v2
+  projects: [NCBF]
+
 # PhD Theses
 - title: "Towards Trustworthy Autonomy in Uncertain Environments: Synthesis of Verified Safe and Performant Control Policies for Autonomous Systems"
   authors: [manan]
