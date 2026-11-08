@@ -1,0 +1,35 @@
+---
+layout: default
+---
+<article class="thesis-page">
+  <p class="thesis-meta">
+    <span class="thesis-author">{{ page.citation_authors | join: ", " }}</span><br />
+    {{ page.degree }} Thesis &middot; {{ page.citation_institution }} &middot; {{ page.citation_date }}
+    {% if page.supervisors %}<br />Supervised by {{ page.supervisors | join: " and " }}{% endif %}
+  </p>
+
+  <p>
+    <a class="thesis-pdf" href="{{ site.base }}/papers/{{ page.pdf }}">
+      <i class="fa-solid fa-file-pdf" aria-hidden="true"></i> Download PDF
+    </a>
+  </p>
+
+  <h2>Abstract</h2>
+  <div class="thesis-abstract">{{ page.abstract | markdownify }}</div>
+
+  {% if page.citation_keywords %}
+  <p class="thesis-keywords"><strong>Keywords:</strong> {{ page.citation_keywords | join: ", " }}</p>
+  {% endif %}
+
+  <h2>Cite</h2>
+{% assign lb = "{" %}{% assign rb = "}" %}
+<pre class="thesis-bibtex">@{{ page.bibtex_type }}{{ lb }}{{ page.bibtex_key }},
+  title  = {{ lb }}{{ page.citation_title }}{{ rb }},
+  author = {{ lb }}{{ page.citation_authors | join: " and " }}{{ rb }},
+  school = {{ lb }}{{ page.citation_institution }}{{ rb }},
+  year   = {{ lb }}{{ page.citation_date }}{{ rb }}{% if page.bibtex_type == "misc" %},
+  note   = {{ lb }}{{ page.degree }} Thesis{{ rb }}{% endif %}
+{{ rb }}</pre>
+
+  <p><a href="{{ site.base }}/publications.html">&larr; All publications</a></p>
+</article>

@@ -43,7 +43,7 @@ newperson:
   bio: Research area or program
 ```
 
-Available roles are defined in `_config.yml`. To move someone to alumni or past interns, change only their `role` and update their `bio` as appropriate.
+Available roles are defined in `_config.yml`. To move someone to alumni or past interns, change only their `role` (`phd-alum`, `masters-alum`, `bachelors-alum` or `intern-alum`) and update their `bio` as appropriate.
 
 ### News
 

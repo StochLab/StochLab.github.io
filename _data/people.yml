@@ -91,11 +91,11 @@ satyamgupta:
 # UG
 
 
-# Alumni
+# Alumni (role: phd-alum, masters-alum or bachelors-alum)
 vamshi:
     display_name: "Vamshi Kumar Kurva"
     webpage: "https://vamshikumarkurva.github.io/"
-    role: alum
+    role: phd-alum
     github: vamshikumarkurva
     image: /img/people/vamshikumar.png
     bio: Learning Based Adaptive Control
@@ -103,7 +103,7 @@ vamshi:
 manan:
     display_name: "Manan Tayal"
     webpage: "https://tayalmanan28.github.io/"
-    role: alum
+    role: phd-alum
     github: tayalmanan28
     image: /img/people/manan.jpg
     bio: Ph.D., 2026
@@ -112,21 +112,21 @@ pramod:
     display_name: "Pramod Pal"
     webpage: "https://www.linkedin.com/in/pramodiisc/"
     github: ppalcx
-    role: alum
+    role: phd-alum
     image: /img/people/pramod.jpg
     bio: Ph.D., 2026
 
 ganganair:
     display_name: "Ganga Nair"
     webpage: "https://theriverroars.github.io/ganganairb.github.io/"
-    role: alum
+    role: masters-alum
     image: /img/people/ganga_nair.jpeg
     bio: M.Tech. RAS 2026
 
 pranavtiwari:
     display_name: "Pranav Tiwari"
     webpage: "https://pranavtiwari.co.in/"
-    role: alum
+    role: masters-alum
     image: /img/people/pranav_tiwari.jpeg
     bio: M.Tech. RAS 2026
 
@@ -134,35 +134,35 @@ krankit:
     display_name: "Kumar Ankit"
     webpage: "https://krankit00.github.io/portfolio/"
     image: /img/people/Kumar_Ankit.jpg
-    role: alum
+    role: phd-alum
     bio: Ph.D., 2025
 
 shreyanshsharma:
     display_name: "Shreyansh Sharma​"
     webpage: "https://www.linkedin.com/in/shreyansh-sharma-4044b0176/"
     image: /img/people/Shreyansh_Sharma.jpg
-    role: alum
+    role: masters-alum
     bio: M.Tech. RAS, 2025
 
 vaishnavb:
     display_name: "Vaishnav B​"
     webpage: "https://www.linkedin.com/in/vaishnav-b-55116722a/"
-    role: alum
+    role: masters-alum
     bio: M.Tech. RAS, 2025
 
 sudharsan:
     display_name: "Sudharsan"
-    role: alum
+    role: masters-alum
     bio: M.Tech. RAS, 2025
 
 ishita:
     display_name: "Ishita Ganjoo"
-    role: alum
+    role: masters-alum
     bio: M.Tech. RAS, 2025
 
 adit:
     display_name: "Adith Muralidharan"
-    role: alum
+    role: masters-alum
     webpage: "https://www.linkedin.com/in/adith-m-dharan/"
     image: /img/people/adith_m.jpeg
     bio: M.Tech. RAS, 2025
@@ -170,13 +170,13 @@ adit:
 saga:
     display_name: "Teja Sai Ganesh (SAGA)"
     webpage: "https://www.linkedin.com/in/mtsaga/"
-    role: alum
+    role: masters-alum
     bio: M.Tech. AI, 2025
 
 shreenaba:
     display_name: "Shreenabh Agrawal"
     image: /img/people/shreenabh_agrawal.jpeg
-    role: alum
+    role: bachelors-alum
     webpage: "https://in.linkedin.com/in/shreenabh"
     bio: BS Physics, 2025
 
@@ -184,63 +184,63 @@ mothish:
     display_name: "GVS Mothish"
     webpage: "https://www.linkedin.com/in/gvs-mothish-536138209/"
     image: /img/people/GVS_Mothish.jpg
-    role: alum
+    role: masters-alum
     bio: M.Tech. RAS, 2024
 
 abhishekranjan:
     display_name: "Abhishek Ranjan"
     webpage: "https://www.linkedin.com/in/ranjan1abhi/"
     image: /img/people/Abhishek_Ranjan.jpg
-    role: alum
+    role: masters-alum
     bio: M.Tech. Research, 2024
 
 namansaxena:
     display_name: "Naman Saxena"
     webpage: "https://in.linkedin.com/in/naman-saxena-718b7b175"
     image: /img/people/naman_saxena.jpg
-    role: alum
+    role: masters-alum
     bio: M.Tech. Research, 2023
 
 sangeet:
     display_name: "Sangeet M"
     webpage: "https://www.linkedin.com/in/sangeetmpkd7/"
-    role: alum
+    role: masters-alum
     bio: M.Tech. AI, 2023
     
 subho:
     display_name: "Subhojyoti Khastagir"
     webpage: "https://www.linkedin.com/in/subhojyoti-khastagir-2a4716152/"
-    role: alum
+    role: masters-alum
     bio: M.Tech. CSA, 2023    
 
 phani:
     display_name: "Phani M Thontepu"
     webpage: "https://in.linkedin.com/in/phani-madhusudhan-thontepu-4741ab115"
-    role: alum
+    role: masters-alum
     bio: M.Tech. AI, 2022
 
 ankitpandita:
     display_name: "Ankit Pandita"
     webpage: "https://www.linkedin.com/in/ankit-pandita-479830205/"
-    role: alum
+    role: masters-alum
     bio: M.Tech. AI, 2022
 
 govindu:
     display_name: "Palaparthi Govindu"
     webpage: "https://www.linkedin.com/in/govind100/"
-    role: alum
+    role: masters-alum
     bio: M.Tech. CSA, 2022
     
 devarajuvinoda:
     display_name: "Devaraju Vinoda"
     webpage: "https://www.linkedin.com/in/devaraju-vinoda/"
-    role: alum
+    role: masters-alum
     bio: M.Tech. CSA,2022
 
 soumya:
     display_name: "Soumya Rani"
     webpage: "https://www.linkedin.com/in/soumya-rani/"
-    role: alum
+    role: masters-alum
     bio: M.Tech. CSA, 2021
 
 
