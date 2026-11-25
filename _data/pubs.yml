@@ -600,6 +600,14 @@
   pdf: https://arxiv.org/pdf/2506.21697v2
   projects: [NCBF]
 
+- title: "BiPathCPG: A Novel Load-Sharing Design Architecture for Compound Planetary Gearboxes"
+  authors: [Deepak Kapa*, Aman Singh*, Saketh Vegesna, Suryank Joshi, Mayank Goswami, Shishir Kolathaya]
+  date: 2026-11-18
+  pub-type: journal
+  publisher: "IEEE Robotics and Automation Letters (RA-L)"
+  pdf: https://arxiv.org/pdf/2611.24142
+  projects: [CodesignOptimization]
+
 # Theses
 - title: "Neural Control Barrier Functions from Physics Informed Neural Networks"
   authors: [shreenaba]
