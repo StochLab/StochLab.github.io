@@ -11,6 +11,12 @@ rajkishore:
     image: /img/people/raj_kishore.jpeg
     role: staff
 
+Saketh:
+    display_name: "Saketh Vegesna"
+    image: /img/people/saketh_vegesna.jpg
+    webpage: "https://github.com/SakethGG"
+    role: staff
+
 shreyas:
     display_name: "Shreyas"
     webpage: "https://www.linkedin.com/in/shreyas-55403b25a/"
@@ -23,12 +29,30 @@ Anubhav:
     # image: /img/people/anubhav.jpeg
     role: staff
 
-Saketh:
-    display_name: "Saketh Vegesna"
-    webpage: "https://github.com/SakethGG"
-    role: staff
-
 # Intern 
+divyansh:
+    display_name: "Divyansh Rahangdale"
+    webpage: "https://www.linkedin.com/in/divyansh-rahangdale/"
+    image: /img/people/divyansh_rahangdale.jpg
+    role: intern
+
+harshit:
+    display_name: "Harshit Tiwari"
+    webpage: "https://www.linkedin.com/in/harshit-tiwari-8b7b77310/"
+    image: /img/people/harshit_tiwari.jpg
+    role: intern
+
+mahiraj:
+    display_name: "Mahiraj Seervi"
+    webpage: "https://www.linkedin.com/in/mahiraj-seervi-ab4bb6370/"
+    image: /img/people/mahiraj_seervi.jpg
+    role: intern
+
+suyash:
+    display_name: "Suyash Jain"
+    webpage: "https://www.linkedin.com/in/suyash-jain-41ab89312/"
+    image: /img/people/suyash_jain.jpg
+    role: intern
 
 # MTech Students
 rayaan:
@@ -51,7 +75,7 @@ amansingh:
     display_name: "Aman Singh"
     webpage: "https://singhaman1750.github.io/"
     role: phd
-    image: /img/people/aman-singh.png
+    image: /img/people/aman_singh.jpg
     bio: Design and Control Co-Optimization 
 
 ashirwat:
@@ -280,7 +304,25 @@ prakharg:
 deepakkapa:
     display_name: "Deepak Kapa"
     webpage: "https://www.linkedin.com/in/deepak-kapa-iitr26/"
-    image: /img/people/Deepak_kappa.png
+    image: /img/people/deepak_kapa.jpg
+    role: intern-alum
+
+suryank:
+    display_name: "Suryank Joshi"
+    webpage: "https://www.linkedin.com/in/suryank-joshi/"
+    image: /img/people/suryank_joshi.jpg
+    role: intern-alum
+
+vishalramesh:
+    display_name: "Vishal Ramesh"
+    webpage: "https://www.linkedin.com/in/vishal-ramesh-0905/"
+    image: /img/people/vishal_ramesh.jpg
+    role: intern-alum
+
+prasham:
+    display_name: "Prasham Chheda"
+    webpage: "https://www.linkedin.com/in/prashamchheda/"
+    image: /img/people/prasham_chheda.jpg
     role: intern-alum
 
 mehulanand:
@@ -442,6 +484,7 @@ himanshulodha:
 
 bhavya:
     display_name: "Bhavya Giri Goswami"
+    image: /img/people/bhavya_goswami.jpg
     webpage: "https://www.linkedin.com/in/bhavya-giri-goswami/"
     role: intern-alum
 
@@ -596,3 +639,9 @@ ashitava:
     role: collaborator
     image: /img/people/ashitava.jpg
     bio:  Prof. Satish Dhavan Chair Professor, ME, IISc (Retd.)
+
+mayankgoswami:
+    display_name: "Mayank Goswami"
+    role: collaborator
+    image: /img/people/mayank_goswami.jpg
+    bio: Associate Professor, Physics, IIT Roorkee

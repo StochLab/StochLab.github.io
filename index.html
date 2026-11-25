@@ -109,7 +109,7 @@ role-tables:
             <article class="area-card reveal">
                 <div class="area-img">
                     {% if area.video %}
-                        <video autoplay muted loop playsinline preload="metadata">
+                        <video autoplay muted loop playsinline preload="metadata"{% if area.poster %} poster="{{ area.poster }}"{% endif %}>
                             <source src="{{ area.video }}" type="video/mp4">
                         </video>
                     {% else %}
