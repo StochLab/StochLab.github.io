@@ -21,15 +21,17 @@
   video: /img/Safety_video_Manan.mp4
 
 - key: codesign
-  name: Co-Design for Legged Systems
-  tagline: Optimizing robot bodies and controllers together for maximum performance.
+  name: Design and Development of Robotic Systems
+  tagline: Building the robots, legs, and actuators that our research runs on.
   blurb: |
-    We treat a robot's morphology and its controller as one coupled design
-    problem. Through co-design and actuator optimization, our lab simultaneously
-    optimizes hardware parameters and control policies — from active spines and
-    dynamic manipulators to full quadruped platforms — to push the limits of
-    what these systems can do.
-  image: /img/spine.jpg
+    We design, build, and test the robotic systems behind our research,
+    from complete legged robots to the actuators and gearboxes that drive them.
+    Our work spans low-cost quadruped and biped platforms, optimization-driven
+    actuator and gearbox design, and co-design methods that tune a robot's
+    mechanical parameters and its controller together.
+  video: /img/robotic_systems_montage.mp4
+  poster: /img/robotic_systems_montage_poster.jpg
+  image: /img/robots/stoch3_poster.png
 
 - key: humanoid
   name: Humanoids Research

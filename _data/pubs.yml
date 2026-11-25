@@ -5,7 +5,7 @@
   publisher: "IEEE International Conference on Control, Automation and Robotics (ICCAR) 2019"
   pdf: Design.pdf
   venue: Beijing, China
-  projects: [stochdesign]
+  projects: [stochdesign, RobotPlatforms]
 
 - title: "Realizing learned quadruped locomotion behaviors through kinematic motion primitives"
   authors: [ Abhik Singla,  Shounak Bhattacharya, Dhaivat Dholakiya, Shalabh Bhatnagar,  Ashitava Ghosal,  Bharadwaj Amrutur,  Shishir Kolathaya]
@@ -245,7 +245,7 @@
   pub-type: conference
   publisher: "IEEE International Conference on Control, Automation and Robotics (ICCAR) 2024, Singapore"
   pdf: https://arxiv.org/pdf/2312.06512.pdf
-  projects: [StochBiRo]
+  projects: [StochBiRo, RobotPlatforms]
 
 - title: "Vision Based C3BF in UGV Unicycle Model"
   authors: [Sahil Bobade, Anand Sortur, Sudharsan Vishwanathan, Rushikesh Jadhav, Shishir Kolathaya]
@@ -301,7 +301,7 @@
   pub-type: patent
   publisher: "Indian Patent"
   pdf: patent_sandwich_leg.pdf
-  projects: [Quadruped]
+  projects: [Quadruped, RobotPlatforms]
 
 - title: "A method and system for controlling quadrupedal robot locomotion"
   authors: [Aditya Shirwatkar, Aditya Sagi, Shishir Kolathaya]
@@ -388,7 +388,7 @@
   pub-type: conference
   publisher: "7th International Conference of Advances In Robotics (AIR) 2025"
   pdf: https://arxiv.org/pdf/2503.14255
-  projects: [CodesignOptimization]
+  projects: [RobotPlatforms, CodesignOptimization]
 
 - title: "Co-Design of Link lengths and Control for High Vertical Jumping in a Monoped"
   authors: [Aastha Mishra, Aman Singh, Shishir N. Y. Kolathaya]
@@ -396,14 +396,14 @@
   pub-type: conference
   publisher: "7th International Conference of Advances In Robotics (AIR) 2025"
   pdf: https://arxiv.org/pdf/2503.14255
-  projects: [CodesignOptimization]
+  projects: [HardwareControlCodesign]
 
 - title: "Comparison between External and Internal Single Stage Planetary gearbox actuators for legged robots"
-  authors: [Aman Singh, Deepak Kapa, Prasham Chedda, Shishir N. Y. Kolathaya]
+  authors: [Aman Singh, Deepak Kapa, Prasham Chheda, Shishir N. Y. Kolathaya]
   date: 2025-07-03
   pub-type: conference
   publisher: "7th International Conference of Advances In Robotics (AIR) 2025"
-  pdf: https://arxiv.org/pdf/2503.14255
+  pdf: https://arxiv.org/pdf/2506.16356
   projects: [CodesignOptimization]
 
 - title: "Investigating Lagrangian Neural Networks for Infinite Horizon Planning in Quadrupedal Locomotion"
@@ -434,9 +434,9 @@
   authors: [Aman Singh*, Aastha Mishra*, Deepak Kapa, Suryank Joshi, Shishir Kolathaya]
   date: 2025-10-01
   pub-type: conference
-  publisher: "IEEE-RAS International Conference on Humanoid Robots"
+  publisher: "IEEE-RAS International Conference on Humanoid Robots (Humanoids) 2025, Seoul, Korea"
   pdf: https://ieeexplore.ieee.org/abstract/document/11203144
-  projects: [CodesignOptimization]
+  projects: [HardwareControlCodesign]
 
 - title: "Real-Time Gait Adaptation for Quadrupeds using Model Predictive Control and Reinforcement Learning"
   authors: [Prakrut Kotecha, Ganga Nair B, Shishir Kolathaya]
@@ -531,7 +531,7 @@
   pub-type: conference
   publisher: "IEEE/ASME International Conference on Advanced Intelligent Mechatronics (AIM) 2026, Italy"
   pdf: https://arxiv.org/pdf/2604.06025
-  projects: [CodesignOptimization]
+  projects: [HardwareControlCodesign]
 
 - title: "A Robust Physics-Informed Machine Learning Framework for Safe and Optimal Control of Autonomous Systems"
   authors: [Manan Tayal*, Aditya Singh*, Ganga Nair B, Shishir Kolathaya, Somil Bansal]
@@ -599,6 +599,14 @@
   publisher: "IEEE Transactions on Automatic Control (TAC)"
   pdf: https://arxiv.org/pdf/2506.21697v2
   projects: [NCBF]
+
+- title: "DTEA: A Dual-Topology Elastic Actuator Enabling Real-Time Switching Between Series and Parallel Compliance"
+  authors: [Vishal Ramesh, Aman Singh, Shishir Kolathaya]
+  date: 2026-09-27
+  pub-type: conference
+  publisher: "IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026, Pittsburgh, USA"
+  pdf: https://arxiv.org/pdf/2604.15865
+  projects: [CodesignOptimization]
 
 - title: "BiPathCPG: A Novel Load-Sharing Design Architecture for Compound Planetary Gearboxes"
   authors: [Deepak Kapa*, Aman Singh*, Saketh Vegesna, Suryank Joshi, Mayank Goswami, Shishir Kolathaya]

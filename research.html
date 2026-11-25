@@ -23,7 +23,7 @@ title: Research Projects
             </div>
             <div class="research-area-img">
                 {% if area.video %}
-                    <video autoplay muted loop playsinline preload="auto">
+                    <video autoplay muted loop playsinline preload="auto"{% if area.poster %} poster="{{ area.poster }}"{% endif %}>
                         <source src="{{ area.video }}" type="video/mp4">
                     </video>
                 {% else %}
